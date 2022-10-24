@@ -1,3 +1,7 @@
+# Global variable used to function loops and validation
+play_game = True
+
+
 def intro():
     """
     Introduction to the game.
@@ -6,7 +10,7 @@ def intro():
     print("")
     name = input("Enter your name:   ")
     print(f'Greetings {name.capitalize()}! \nWelcome to Pauls adventure game!')
-    start = input ("Would you like to play the game? Yes / No\n")
+    start = input("Would you like to play the game? Yes / No\n")
 
 
     if start.lower().strip() == "yes":
@@ -33,6 +37,8 @@ def start_game():
     """
     Starts the game
     """
+    print("--------------------------------------------------------------------------")
+    print("")
     print("Your running through the woods")
     print("You have been running for so long you have forgotten how long you have been running")
     print("Your feet are hurt from running so hard")
