@@ -47,7 +47,7 @@ def start_game():
     """
     Starts the game
     """
-    print("--------------------------------------------------------------------------")
+    print("------------------------------------------------------------------")
     print("")
     print("Your running through the woods")
     print("You have been running for so long you have forgotten how long you have been running")
@@ -61,18 +61,49 @@ def start_game():
     print("Everything suddenly becomes more quite, you hear seaguls far to the left")
     print("")
     print("What do you do? Do you go left towards the noise or do you go right and deeper into the forest?")
-    direction = input("Do you go left or right?").strip().lower()
-    if direction == "left":
-        sea_scenario()
-    elif direction == "right":
-        forest_scenario()
-    else:
-        print("Invalid input. Please try again. \n")
+    while play_game:
+        direction = input("Do you go left or right?\n").strip().lower()
+        if direction == "left" or direction == "l":
+            sea_scenario()
+        elif direction == "right" or direction == "r":
+            forest_scenario()
+        else:
+            print("Invalid input. Please try again. \n")
     
 def sea_scenario():
     """
     Sea scenario
     """
+    print("------------------------------------------------------------------")
+    print("You take off running in the direction of the seagul noises, forgetting the pain in your feet")
+    print("")
+    print("You keep running, occasionly glancing over your shoulder")
+    print("The hair starts to stand on the back of your neck")
+    print("You have a feeling you are being chased")
+    print("Why are you running ??")
+    print("What did you do to that person??")
+    print("Wait, what person?? Why were those people so angry??")
+    print("You start to remember a little about the chase")
+    print("")
+    print("Murderer the people called you")
+    print("")
+    print("")
+    print("Suddenly you are back in the current moment, the trees start to become less dense")
+    print("You start to hear the ocean")
+    print("You start to run faster, maybe you can find a boat and sail to safety")
+    print("")
+    print("")
+    print("You come out of the woods into a little hidden beach")
+    print("You start to hear a lady singing, the sound of the voice is like an angel from heaven")
+    print("You scan the beach and at the far you can make out a lady on the rocks")
+    while play_game:
+        direction = input("Do you go forward and ask the lady for help or run back into the forest? Forward or back?\n").strip().lower()
+        if direction == "forward" or direction == "f":
+            on_the_rocks_scenario()
+        elif direction == "back" or direction == "b":
+            forest_clearing_scenario()
+        else:
+            print("Invalid input. Please try again. \n")
     print("Sea")
 
 
