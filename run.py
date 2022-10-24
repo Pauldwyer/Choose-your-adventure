@@ -1,14 +1,26 @@
-#opening display for the game
-def display():
+
+def intro():
+    """ 
+    Introduction to the game.
     """
-    Opening display title screen for the game
-    
-    """
-    print("Welcome to Pauls choose your own adventure")
-    answer = input("Do you wanna play? Yes / No")
-    if answer.lower().strip() == "yes":
+    name = input("Enter your name:   ")
+    print(f'Greetings {name.capitalize()}! Welcome to Pauls adventure game!')
+    start = input ("Would you like to play the game? Yes / No\n")
+
+
+    if start.lower().strip() == "yes":
+        print("Great! lets play the game then")
         start_game()
     else:
-        print("Too bad")
+        print("Thats too bad!")
+        quit()
 
-display()
+def quit():
+    print("That")
+    intro()
+
+def start_game():
+    print("Starting the game")
+
+
+intro()
