@@ -72,7 +72,9 @@ def start_game():
     
 def sea_scenario():
     """
-    Sea scenario
+    Story for when you take the direction of left in the forest clearing.
+    Brings the user to a hidden beach and gives the user a choice to continue or go back to the forest.
+
     """
     print("------------------------------------------------------------------")
     print("You take off running in the direction of the seagul noises, forgetting the pain in your feet")
@@ -105,6 +107,38 @@ def sea_scenario():
         else:
             print("Invalid input. Please try again. \n")
     print("Sea")
+
+
+def on_the_rocks_scenario():
+    """
+    On the rocks
+    """
+    print("On the rocks")
+
+
+def forest_clearing_scenario():
+    """
+    The user is back in the forest clearing from the intro but with a different decision.
+    """
+    print("------------------------------------------------------------------")
+    print("Fuck that you say to yourself")
+    print("You turn and run back into the woods")
+    print("")
+    print("")
+    print("")
+    print("You end up back where you were, in the clearing in the forest")
+    print("What do you do? Go deeper into the forest or have a rest?")
+    while play_game:
+        decision = input("Go right into the forest or rest? forest / rest\n").strip().lower()
+    if decision == "forest" or decision == "f":
+        print("You go into the forest")
+        forest_scenario()
+    elif decision == "rest" or decision == "r":
+        print("You sit down with your back to a tree and fall asleep")
+        falling_asleep_scenario()
+    else:
+        print("Invalid input. Please try again. \n")
+    
 
 
 def forest_scenario():
