@@ -10,15 +10,17 @@ def intro():
     print("")
     name = input("Enter your name:   ")
     print(f'Greetings {name.capitalize()}! \nWelcome to Pauls adventure game!')
-    start = input("Would you like to play the game? Yes / No\n")
-
-
-    if start.lower().strip() == "yes":
-        print("Great! lets play the game then")
-        start_game()
-    else:
-        print("Coward!")
-        back_to_start()
+    
+    while play_game:
+        start = input("Would you like to play? Yes / No\n").lower().strip()
+        if start == "yes" or start == "y":
+            print("Great! lets play the game then")
+            start_game()
+        elif start == "no" or start == "n":
+            print("Coward!")
+            back_to_start()
+        else:
+            print("Invalid input. Please try again. \n")
 
 def back_to_start():
     """
