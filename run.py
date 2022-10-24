@@ -128,8 +128,7 @@ def forest_clearing_scenario():
     print("")
     print("You end up back where you were, in the clearing in the forest")
     print("What do you do? Go deeper into the forest or have a rest?")
-    while play_game:
-        decision = input("Go right into the forest or rest? forest / rest\n").strip().lower()
+    decision = input("Go right into the forest or rest? forest / rest\n").strip().lower()
     if decision == "forest" or decision == "f":
         print("You go into the forest")
         forest_scenario()
