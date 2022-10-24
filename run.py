@@ -138,8 +138,13 @@ def forest_clearing_scenario():
         falling_asleep_scenario()
     else:
         print("Invalid input. Please try again. \n")
-    
 
+
+def falling_asleep_scenario():
+    """
+    Rest
+    """
+    print("You awake and its dark")
 
 def forest_scenario():
     """
