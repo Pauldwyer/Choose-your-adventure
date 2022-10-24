@@ -5,6 +5,14 @@ play_game = True
 def intro():
     """
     Introduction to the game.
+    Asks user for their name and then greets the player.
+    Then asks the user do they want to play a game.
+    If the user answers yes then the start_game function is called.
+    If the user answers no the the user is called a coward and
+    the back_to_start function is called.
+    A while loop evaluates user input.
+    Only answers allowed are Yes, Y, No, N.
+    User input is stripped of white space and converted into lowercase.
     """
     print("Hi There")
     print("")
