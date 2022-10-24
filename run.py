@@ -33,7 +33,37 @@ def start_game():
     """
     Starts the game
     """
-    print("Starting the game")
+    print("Your running through the woods")
+    print("You have been running for so long you have forgotten how long you have been running")
+    print("Your feet are hurt from running so hard")
+    print("")
+    print("The soles of your feet are screaming")
+    print("You cant keep going")
+    print("")
+    print("You come to a clearing in the woods and stop for a second to catch your breath")
+    print("You take in your surroundings")#add more descriptions here
+    print("Everything suddenly becomes more quite, you hear seaguls far to the left")
+    print("")
+    print("What do you do? Do you go left towards the noise or do you go right and deeper into the forest?")
+    direction = input("Do you go left or right?").strip().lower()
+    if direction == "left":
+        sea_scenario()
+    elif direction == "right":
+        forest_scenario()
+    else:
+        print("Invalid input. Please try again. \n")
+    
+def sea_scenario():
+    """
+    Sea scenario
+    """
+    print("Sea")
 
+
+def forest_scenario():
+    """
+    Forest scenario
+    """
+    print("Forest")
 
 intro()
