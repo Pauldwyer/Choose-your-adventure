@@ -34,14 +34,19 @@ def intro():
 def back_to_start():
     """
     Asks the user do they want to go back to the start of the game
-    If yes then the intro runs again
-    If no the user exits the programme
+    If yes or y then the intro runs again
+    If no or n the user exits the programme
+    A while loop evaluates the user input
+    User input is stripped of white space and converted into lowercase
     """
-    to_the_start = input("Would you like to go back to the start? y/n \n")
-    if to_the_start.lower().strip() == "yes":
-        intro()
-    else:
-        exit()
+    while play_game:
+        to_the_start = input("Would you like to go back to the start? y/n \n").lower().strip()
+        if to_the_start == "yes" or to_the_start == "y":
+            intro()
+        elif to_the_start == "no" or to_the_start == "n":
+            exit()
+        else:
+            print("Invalid input. Please try again. \n")
     
 
 def start_game():
