@@ -24,6 +24,7 @@ def intro():
         if start == "yes" or start == "y":
             print("Great! lets play the game then")
             start_game()
+            break
         elif start == "no" or start == "n":
             print("Coward!")
             back_to_start()
@@ -65,8 +66,10 @@ def start_game():
         direction = input("Do you go left or right?\n").strip().lower()
         if direction == "left" or direction == "l":
             sea_scenario()
+            break
         elif direction == "right" or direction == "r":
             forest_scenario()
+            break
         else:
             print("Invalid input. Please try again. \n")
     
@@ -102,8 +105,10 @@ def sea_scenario():
         direction = input("Do you go forward and ask the lady for help or run back into the forest? Forward or back?\n").strip().lower()
         if direction == "forward" or direction == "f":
             on_the_rocks_scenario()
+            break
         elif direction == "back" or direction == "b":
             forest_clearing_scenario()
+            break
         else:
             print("Invalid input. Please try again. \n")
     print("Sea")
@@ -128,15 +133,18 @@ def forest_clearing_scenario():
     print("")
     print("You end up back where you were, in the clearing in the forest")
     print("What do you do? Go deeper into the forest or have a rest?")
-    decision = input("Go right into the forest or rest? forest / rest\n").strip().lower()
-    if decision == "forest" or decision == "f":
-        print("You go into the forest")
-        forest_scenario()
-    elif decision == "rest" or decision == "r":
-        print("You sit down with your back to a tree and fall asleep")
-        falling_asleep_scenario()
-    else:
-        print("Invalid input. Please try again. \n")
+    while play_game:
+        decision = input("Go right into the forest or rest? forest / rest\n").strip().lower()
+        if decision == "forest" or decision == "f":
+            print("You go into the forest")
+            forest_scenario()
+            break
+        elif decision == "rest" or decision == "r":
+            print("You sit down with your back to a tree and fall asleep")
+            falling_asleep_scenario()
+            break
+        else:
+            print("Invalid input. Please try again. \n")
 
 
 def falling_asleep_scenario():
