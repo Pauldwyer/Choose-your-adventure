@@ -154,8 +154,12 @@ def forest_clearing_scenario():
 
 def falling_asleep_scenario():
     """
-    Rest
+    Continues the story from when the user decides to rest.
+    Gives a little back story to the story.
+    This is a bad ending.
+    Calls the bad_ending function.
     """
+    print("------------------------------------------------------------------")
     print("")
     print("")
     print("'Dont hurt her' you shout")
@@ -189,13 +193,18 @@ def falling_asleep_scenario():
     print("5 men looking down on you")
     print("You recognise Emilys father Pierre")
     print("'You thought you could runaway' he says 'Now you will die for what you did to my daughter'")
-    print("Do you have any last words?")
+    print("'Do you have any last words?' Pierre says")
     print("As you open your mouth to protest Pierre slashes our throat")
     print("You bleed to death tied to the tree")
     bad_ending()
 
 
 def bad_ending():
+    """
+    Bad ending function
+    Will give some flavour text
+    Will call the back to start function to start the game again
+    """
     print("This is the bad ending")
     back_to_start()
 
