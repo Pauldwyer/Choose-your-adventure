@@ -1,8 +1,8 @@
 # Global variable used to function loops and validation
-play_game = True
+PLAY_GAME = True
 
 # Global variable for the username
-username = " "
+USER_NAME = " "
 
 
 def intro():
@@ -21,15 +21,15 @@ def intro():
     """
 
 
-    while play_game:
+    while PLAY_GAME:
         name = input("What is your name? \n").lower().strip()
         if len(name) < 1:
             print("Length of username is too short. Please try again.\n")
         elif len(name) > 20:
             print("Length of username is too long. Please try again.\n")
         elif all(char.isalpha() or char.isspace() for char in name):
-            global username
-            username = " ".join(name.split()).title()
+            global USER_NAME
+            USER_NAME = " ".join(name.split()).title()
             break
         elif any(char.isdigit() for char in name):
             print("Your name cannot contain a number. Please try again.\n")
@@ -38,7 +38,7 @@ def intro():
 
     print(f'Greetings {name.capitalize()}! \nWelcome to Pauls adventure game!')
     
-    while play_game:
+    while PLAY_GAME:
         start = input("Would you like to play? Yes / No\n").lower().strip()
         if start == "yes" or start == "y":
             print("Great! lets play the game then")
@@ -58,7 +58,7 @@ def back_to_start():
     A while loop evaluates the user input
     User input is stripped of white space and converted into lowercase
     """
-    while play_game:
+    while PLAY_GAME:
         to_the_start = input("Would you like to go back to the start? y/n \n").lower().strip()
         if to_the_start == "yes" or to_the_start == "y":
             intro()
@@ -86,7 +86,7 @@ def start_game():
     print("Everything suddenly becomes more quite, you hear seaguls far to the left")
     print("")
     print("What do you do? Do you go left towards the noise or do you go right and deeper into the forest?")
-    while play_game:
+    while PLAY_GAME:
         direction = input("Do you go left or right?\n").strip().lower()
         if direction == "left" or direction == "l":
             sea_scenario()
@@ -125,7 +125,7 @@ def sea_scenario():
     print("You come out of the woods into a little hidden beach")
     print("You start to hear a lady singing, the sound of the voice is like an angel from heaven")
     print("You scan the beach and at the far you can make out a lady on the rocks")
-    while play_game:
+    while PLAY_GAME:
         direction = input("Do you go forward and ask the lady for help or run back into the forest? Forward or back?\n").strip().lower()
         if direction == "forward" or direction == "f":
             on_the_rocks_scenario()
@@ -157,7 +157,7 @@ def forest_clearing_scenario():
     print("")
     print("You end up back where you were, in the clearing in the forest")
     print("What do you do? Go deeper into the forest or have a rest?")
-    while play_game:
+    while PLAY_GAME:
         decision = input("Go right into the forest or rest? forest / rest\n").strip().lower()
         if decision == "forest" or decision == "f":
             print("You go into the forest")
