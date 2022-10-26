@@ -123,7 +123,9 @@ def sea_scenario():
     print("")
     print("")
     print("You come out of the woods into a little hidden beach")
-    print("You start to hear a lady singing, the sound of the voice is like an angel from heaven")
+    print("You start to hear a lady singing")
+    print("The sound of the voice is like an angel from heaven")
+    print("You cant quite make out the words or language")
     print("You scan the beach and at the far you can make out a lady on the rocks")
     while PLAY_GAME:
         direction = input("Do you go forward and ask the lady for help or run back into the forest? Forward or back?\n").strip().lower()
