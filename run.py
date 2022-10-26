@@ -1,8 +1,11 @@
+import os
+from stories import *
+
 # Global variable used to function loops and validation
 PLAY_GAME = True
 
 # Global variable for the username
-USER_NAME = " "
+username = " "
 
 
 def intro():
@@ -28,8 +31,8 @@ def intro():
         elif len(name) > 20:
             print("Length of username is too long. Please try again.\n")
         elif all(char.isalpha() or char.isspace() for char in name):
-            global USER_NAME
-            USER_NAME = " ".join(name.split()).title()
+            global username
+            username = " ".join(name.split()).title()
             break
         elif any(char.isdigit() for char in name):
             print("Your name cannot contain a number. Please try again.\n")
@@ -226,11 +229,7 @@ def bad_ending():
     Will give some flavour text
     Will call the back to start function to start the game again
     """
-    print("This is the bad ending which means you died")
-    print("Tough luck")
-    print("Maybe rethink your choices and play again?")
-    print("")
-    print("If you dare")
+    bad_ending_function(username)
     back_to_start()
 
 
