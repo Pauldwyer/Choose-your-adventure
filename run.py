@@ -1,8 +1,8 @@
 # Global variable used to function loops and validation
 play_game = True
 
-
-username = ""
+# Global variable for the username
+username = " "
 
 
 def intro():
@@ -11,13 +11,13 @@ def intro():
     Asks user for their name and then greets the player.
     The name is validated for length, symbols and numbers using a while loop.
     If the name contains symbols or numbers the user is prompted to enter again.
-    Then asks the user do they want to play a game.
+    The user is then asked do they want to play a game.
     If the user answers yes then the start_game function is called.
     If the user answers no the the user is called a coward and
     the back_to_start function is called.
     A while loop evaluates user input.
     Only answers allowed are Yes, Y, No, N.
-    User input is stripped of white space and converted into lowercase.
+    Both user inputs is stripped of white space and converted into lowercase.
     """
 
 
