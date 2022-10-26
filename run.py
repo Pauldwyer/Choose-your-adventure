@@ -226,7 +226,11 @@ def bad_ending():
     Will give some flavour text
     Will call the back to start function to start the game again
     """
-    print("This is the bad ending")
+    print("This is the bad ending which means you died")
+    print("Tough luck")
+    print("Maybe rethink your choices and play again?")
+    print("")
+    print("If you dare")
     back_to_start()
 
 
