@@ -2,10 +2,15 @@
 play_game = True
 
 
+username = ""
+
+
 def intro():
     """
     Introduction to the game.
     Asks user for their name and then greets the player.
+    The name is validated for length, symbols and numbers using a while loop.
+    If the name contains symbols or numbers the user is prompted to enter again.
     Then asks the user do they want to play a game.
     If the user answers yes then the start_game function is called.
     If the user answers no the the user is called a coward and
@@ -14,9 +19,23 @@ def intro():
     Only answers allowed are Yes, Y, No, N.
     User input is stripped of white space and converted into lowercase.
     """
-    print("Hi There")
-    print("")
-    name = input("Enter your name:   ")
+
+
+    while play_game:
+        name = input("What is your name? \n").lower().strip()
+        if len(name) < 1:
+            print("Length of username is too short. Please try again.\n")
+        elif len(name) > 20:
+            print("Length of username is too long. Please try again.\n")
+        elif all(char.isalpha() or char.isspace() for char in name):
+            global username
+            username = " ".join(name.split()).title()
+            break
+        elif any(char.isdigit() for char in name):
+            print("Your name cannot contain a number. Please try again.\n")
+        else:
+            print("Your name cannot contain a symbol. Please try again.\n")
+
     print(f'Greetings {name.capitalize()}! \nWelcome to Pauls adventure game!')
     
     while play_game:
