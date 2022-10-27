@@ -262,26 +262,36 @@ def deeper_into_cave_function(username):
     You see a huge golden leather bound chest at one end
     The light from the fire makes the chest shine
     You can see the flames dancing on the reflection off the gold
-    You approach the when suddenly the air infront of you contorts
+
+    You approach the fire when suddenly the air infront of you contorts
     A man materialises in front of you!
+
     An old man, hunched over leaning on a staff
     Hes wrapped in a cloak with a hood over his head
+
     'Ah {username} i wondered if you would make it here'
     You are shocked, what the hell is going on here you wonder 
+
     'Ah dont worry {username} all will be clear soon' says the man
     Hes reading your mind?! Who the hell is this guy
     You start to take 2 steps back preparing to run
     Suddenly the pain in your feet returns with a vengence
+
     'I am Damon, and please dont run. Sit down your feet will thank you'
     Damon you think... Damon !! the legendary mage?!
+
     The Damon who stopped the orc invasion from the southlands?
-    Stopped the invasion of 100k orcs and turned the tide of the war of the long night
+    Legen has it Damon the mage stopped the invasion of 100k orcs 
+    And turned the tide of the war of the long night
+
     'Yes yes that was me but it wasnt quite 100k more like 10k'
     You feel compelled to sit down
     'Good those poor feet of yours, i dread to think of the blisters you will have'
+
     'Your time is limited so lets get to it'
     'You may have heard i am a very powerful mage'
     'I know of your a little confused, you cant quite remember why you are being pursued'
+
     You keenly listen to the man, taking it all in
     'A ghost from your ranger past caught up with you and attacked you in your house'
     'All your memories will be back in time dont worry'
@@ -291,11 +301,16 @@ def deeper_into_cave_function(username):
     'The Pierre the father in law threw you out the window'
     'All of that head trauma made you lose your memory'
     'Dont worry it will come back in time'
+
     You hear dogs barking echoing in the cave
+
     'I offer you a way to escape'
     'That is Pierre and his goods with dogs, they got your scent'
+
     'I will teleport you somewhere but you must choose quickly'
     'I will give you 3 choices'
+
+    
     'What will it be? And yes you will travel through time before you ask'
     'But you wont remember meeting me, or will you??'
     """)
