@@ -95,6 +95,40 @@ def sea_scenario_function(username):
     """)
 
 
+def forest_scene_function(username):
+    """
+    Going into the forest function
+    Called from the forest clearing
+    """
+    print(f"""
+    --------------------------------------------------------------
+    You decide to go deeper into the woods
+    You need to find somewhere to rest
+
+    You walk deeper and deeper into the woods
+    The only sound you hear is twigs and branches crushing under your feet
+
+    How did you get into this situation
+    You cant remember what happened 5 hours ago
+    Oh {username} what have you gotten yourself into this time.
+
+    But you start to remember some things
+    You start to get lost in your thoughts
+
+    You remember jumping out the window
+    You remember Pierre shouting murderer at you
+    Who did you kill??
+    And why was your wives father calling you murderer??
+    Why did Pierre and his 4 brothers chase you out of the village??
+
+    You snap back into reality
+    You have never been this deep into the woods
+    Surely you are near the foot of the Everlook mountain
+    You are actually and whats that ahead?
+    Is that a cave in the foot of the mountain?
+    Do you hide in the cave or keep going through the woods?
+    """)
+
 def on_the_rocks_function(username):
     """
     On the rocks
@@ -104,7 +138,7 @@ def on_the_rocks_function(username):
     You set out crossing the beach
     The smell of the salt water filles your nose
     The wind blows sand up into your face
-    you look out across the sea
+    You look out across the sea
     Is there a way here to escape this nightmare?
     You get closer to the rocks
     The song the person is singing is hypnotizing

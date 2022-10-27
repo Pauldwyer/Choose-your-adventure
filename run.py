@@ -79,17 +79,21 @@ def start_game():
     print("------------------------------------------------------------------")
     print("")
     print("Your running through the woods")
-    print("You have been running for so long you have forgotten how long you have been running")
     print("Your feet are hurt from running so hard")
+    print("Why are you running?")
+    print("You cant quite remember")
     print("")
     print("The soles of your feet are screaming")
     print("You cant keep going")
     print("")
-    print("You come to a clearing in the woods and stop for a second to catch your breath")
-    print("You take in your surroundings")#add more descriptions here
-    print("Everything suddenly becomes more quite, you hear seaguls far to the left")
+    print("You come to a clearing in the woods")
+    print("You stop for a second to catch your breath")
+    print("You take in your surroundings")  # add more descriptions here
+    print("Everything suddenly becomes more quite")
+    print("you hear seaguls far to the left")
     print("")
-    print("What do you do? Do you go left towards the noise or do you go right and deeper into the forest?")
+    print("What do you do? Do you go left towards the seaguls?")
+    print("Or do you go right and deeper into the forest?")
     while PLAY_GAME:
         direction = input("Do you go left or right?\n").strip().lower()
         if direction == "left" or direction == "l":
@@ -185,7 +189,31 @@ def forest_scenario():
     """
     Forest scenario
     """
-    print("Forest")
+    forest_scene_function(username)
+    while PLAY_GAME:
+        decision = input("Hide or go ahead? hide/ahead \n").strip().lower()
+        if decision == "hide" or decision == "h":
+            cave_scenario()
+            break
+        elif decision == "ahead" or decision == "a":
+            deeper_into_forest()
+            break
+        else:
+            print("Invalid input. Please try again \n")
+
+
+def cave_scenario():
+    """
+    Into the cave
+    """
+    print("You venture into the cave")
+
+
+def deeper_into_forest():
+    """
+    Deeper into forest
+    """
+    print("Your right the cave is spooky, you march into the woods")
 
 
 intro()
