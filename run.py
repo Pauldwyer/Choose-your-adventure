@@ -125,7 +125,6 @@ def sea_scenario():
             break
         else:
             print("Invalid input. Please try again. \n")
-    print("Sea")
 
 
 def on_the_rocks_scenario():
