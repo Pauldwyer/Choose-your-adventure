@@ -204,3 +204,44 @@ def on_the_rocks_function(username):
     'I was starting to get hungry'
     She sinks her fangs into your neck.
     """)
+
+
+def cave_scenario_function(username):
+    """
+    Into the cave we go
+    """
+    print("""
+    --------------------------------------------------------------
+    """)
+    typewriter(f"""
+    You decide to head towards the cave.
+
+    As you approach the cave face you feel a cold air blow out.
+
+    The entrance to the cave is big and the ground leading in is will trodden.
+    This isnt some random cave, this is well used.
+    You kneel down and feel the dirt.
+    Looking for foot prints.
+    But you only feel flat earth.
+
+    You start to remember your previous life as a ranger.
+    Before you settled down in the village.
+    Before you met Emily.
+    You did some horrible things in your time.
+    Before you took an arrow to the knee.
+
+    You stop at the entrance, almost second guessing your decision.
+    Come on {username} lets go you whisper to yourself.
+
+    You continue inside
+    The entrance is quite big, as if its made for men twice your size
+    The large entrance makes it quite bright when you walk in
+    You follow the path in cave as far as it will take you
+    It snakes and turns but you keep following it
+    The light is all but gone and you can barely see 2 ft in front of yourself
+    You keep walking
+    Its eirily quite... until *whoosh* bats fly past you
+    You feel like you have been walking in this cave for an hour
+    You have almost lost all sight until you make out light ahead
+    It looks like a fire is giving off light around a turn ahead
+    """)

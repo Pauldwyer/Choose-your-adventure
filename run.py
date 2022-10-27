@@ -196,7 +196,18 @@ def cave_scenario():
     """
     Into the cave
     """
-    print("You venture into the cave")
+    cave_scenario_function(username)
+    while PLAY_GAME:
+        print("Do you go deeper or run?")
+        decision = input("Deeper or Run?? /n").strip().lower()
+        if decision == "deeper" or decision == "deep":
+            deeper_into_cave_scene()
+            break
+        elif decision == "run" or decision == "r":
+            running_out_of_cave_scene()
+            break
+        else:
+            print("Invalid input. Please try again \n")
 
 
 def deeper_into_forest():
