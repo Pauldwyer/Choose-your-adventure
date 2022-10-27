@@ -216,5 +216,4 @@ def bad_ending():
     back_to_start()
 
 
-
 intro()
