@@ -198,7 +198,7 @@ def cave_scenario():
     """
     cave_scenario_function(username)
     while PLAY_GAME:
-        print("Do you go deeper or run?")
+        print("Do you go deeper into the cave or run?")
         decision = input("Deeper or Run?? /n").strip().lower()
         if decision == "deeper" or decision == "deep":
             deeper_into_cave_scene()
@@ -208,6 +208,29 @@ def cave_scenario():
             break
         else:
             print("Invalid input. Please try again \n")
+
+
+def deeper_into_cave_scene():
+    """
+    Venture deeper into the cave
+    """
+    deeper_into_cave_function(username)
+    while PLAY_GAME:
+        print("Quickly you must choose")
+        decision = input("Sea, Forest or Back to the start?").strip().lower()
+        if decision == "sea" or decision == "s":
+            print("Tell her i sent you")
+            sea_scenario()
+            break
+        elif decision == "forest" or decision == "f":
+            print("Good Choice")
+            forest_scenario()
+            break
+        elif decision == "back" or decision == "b":
+            print("Ah you played it safe")
+            back_to_start()
+        else:
+            print("Invalid input. Please try sea, forest or back \n")
 
 
 def deeper_into_forest():
