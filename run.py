@@ -79,24 +79,9 @@ def start_game():
     While loop to validate user input
 
     """
-    print("--------------------------------------------------------------")
-    print("")
-    print("Your running through the woods")
-    print("Your feet are hurt from running so hard")
-    print("Why are you running?")
-    print("You cant quite remember")
-    print("")
-    print("The soles of your feet are screaming")
-    print("You cant keep going")
-    print("")
-    print("You come to a clearing in the woods")
-    print("You stop for a second to catch your breath")
-    print("You take in your surroundings")  # add more descriptions here
-    print("Everything suddenly becomes more quite")
-    print("you hear seaguls far to the left")
-    print("")
-    print("What do you do? Do you go left towards the seaguls?")
-    print("Or do you go right and deeper into the forest?")
+    start_game_function()
+    print("What do you do? Do you go left?")
+    print("Or do you go right?")
     while PLAY_GAME:
         direction = input("Do you go left or right?\n").strip().lower()
         if direction == "left" or direction == "l":

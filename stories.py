@@ -16,6 +16,33 @@ def typewriter(text):
         sys.stdout.flush()
 
 
+def start_game_function():
+    """
+    Start game
+    """
+    print("""
+    --------------------------------------------------------------
+    """)
+    typewriter("""
+    Your running through the woods
+    Your feet are hurt from running so hard
+    Why are you running?
+    You cant quite remember
+
+    The soles of your feet are screaming
+    You cant keep going
+
+    You come to a clearing in the woods
+    You stop for a second to catch your breath
+
+    Everything suddenly becomes more quite
+    You take in your surroundings
+
+    It looks like you have 2 paths
+    Go left or go right
+    """)
+
+
 def bad_ending_function(username):
     """
     Bad ending function.
@@ -85,7 +112,7 @@ def sea_scenario_function(username):
     --------------------------------------------------------------
     """)
     typewriter(f"""
-    You take off running in the direction of the seagul noises.
+    You take off running in the left direction.
     You forget the pain in your feet.
 
     The hair starts to stand on the back of your neck.
