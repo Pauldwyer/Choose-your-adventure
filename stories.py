@@ -129,6 +129,7 @@ def forest_scene_function(username):
     Do you hide in the cave or keep going through the woods?
     """)
 
+
 def on_the_rocks_function(username):
     """
     On the rocks

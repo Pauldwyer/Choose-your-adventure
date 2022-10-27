@@ -75,8 +75,11 @@ def back_to_start():
 def start_game():
     """
     Starts the game
+    Gives the user the first choice
+    While loop to validate user input
+
     """
-    print("------------------------------------------------------------------")
+    print("--------------------------------------------------------------")
     print("")
     print("Your running through the woods")
     print("Your feet are hurt from running so hard")
