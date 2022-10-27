@@ -20,8 +20,10 @@ def bad_ending_function(username):
     """
     Bad ending function.
     """
-    typewriter(f"""
+    print("""
     --------------------------------------------------------------
+    """)
+    typewriter(f"""
     This is the bad ending, which means you died.
 
     Tough luck {username}
@@ -36,8 +38,10 @@ def falling_asleep_function(username):
     """
     Falling asleep function
     """
-    typewriter(f"""
+    print("""
     --------------------------------------------------------------
+    """)
+    typewriter(f"""
     'Dont hurt her' you shout
     'Get back or else' you yell at the stranger
     The stranger slowly steps towards you
@@ -77,8 +81,10 @@ def sea_scenario_function(username):
     """
     Sea Scenario function
     """
-    typewriter(f"""
+    print("""
     --------------------------------------------------------------
+    """)
+    typewriter(f"""
     You take off running in the direction of the seagul noises.
     You forget the pain in your feet.
 
@@ -115,8 +121,10 @@ def forest_scene_function(username):
     Going into the forest function
     Called from the forest clearing
     """
-    typewriter(f"""
+    print("""
     --------------------------------------------------------------
+    """)
+    typewriter(f"""
     You decide to go deeper into the woods.
     You need to find somewhere to rest.
 
@@ -149,8 +157,10 @@ def on_the_rocks_function(username):
     """
     On the rocks
     """
-    typewriter(f"""
+    print("""
     --------------------------------------------------------------
+    """)
+    typewriter(f"""
     You set out crossing the beach.
     The smell of the salt water filles your nose.
     The wind blows sand up into your face.
@@ -310,7 +320,7 @@ def deeper_into_cave_function(username):
     'I will teleport you somewhere but you must choose quickly'
     'I will give you 3 choices'
 
-    
+
     'What will it be? And yes you will travel through time before you ask'
     'But you wont remember meeting me, or will you??'
     """)
