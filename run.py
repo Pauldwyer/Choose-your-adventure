@@ -23,7 +23,6 @@ def intro():
     Both user inputs is stripped of white space and converted into lowercase.
     """
 
-
     while PLAY_GAME:
         name = input("What is your name? \n").lower().strip()
         if len(name) < 1:
@@ -40,7 +39,7 @@ def intro():
             print("Your name cannot contain a symbol. Please try again.\n")
 
     print(f'Greetings {name.capitalize()}! \nWelcome to Pauls adventure game!')
-    
+
     while PLAY_GAME:
         start = input("Would you like to play? Yes / No\n").lower().strip()
         if start == "yes" or start == "y":
@@ -52,6 +51,7 @@ def intro():
             back_to_start()
         else:
             print("Invalid input. Please try again. \n")
+
 
 def back_to_start():
     """
@@ -69,7 +69,7 @@ def back_to_start():
             exit()
         else:
             print("Invalid input. Please try again. \n")
-    
+
 
 def start_game():
     """
@@ -99,39 +99,19 @@ def start_game():
             break
         else:
             print("Invalid input. Please try again. \n")
-    
+
+
 def sea_scenario():
     """
     Story for when you take the direction of left in the forest clearing.
-    Brings the user to a hidden beach and gives the user a choice to continue or go back to the forest.
+    Brings the user to a hidden beach
+    Gives the user a choice to continue or go back to the forest.
 
     """
-    print("------------------------------------------------------------------")
-    print("You take off running in the direction of the seagul noises, forgetting the pain in your feet")
-    print("")
-    print("You keep running, occasionly glancing over your shoulder")
-    print("The hair starts to stand on the back of your neck")
-    print("You have a feeling you are being chased")
-    print("Why are you running ??")
-    print("What did you do to that person??")
-    print("Wait, what person?? Why were those people so angry??")
-    print("You start to remember a little about the chase")
-    print("")
-    print("Murderer the people called you")
-    print("")
-    print("")
-    print("Suddenly you are back in the current moment, the trees start to become less dense")
-    print("You start to hear the ocean")
-    print("You start to run faster, maybe you can find a boat and sail to safety")
-    print("")
-    print("")
-    print("You come out of the woods into a little hidden beach")
-    print("You start to hear a lady singing")
-    print("The sound of the voice is like an angel from heaven")
-    print("You cant quite make out the words or language")
-    print("You scan the beach and at the far you can make out a lady on the rocks")
+    sea_scenario_function(username)
     while PLAY_GAME:
-        direction = input("Do you go forward and ask the lady for help or run back into the forest? Forward or back?\n").strip().lower()
+        print("Do you go forward and ask for help or go back into the forest")
+        direction = input("Forward or back?\n").strip().lower()
         if direction == "forward" or direction == "f":
             on_the_rocks_scenario()
             break
@@ -152,7 +132,8 @@ def on_the_rocks_scenario():
 
 def forest_clearing_scenario():
     """
-    The user is back in the forest clearing from the intro but with a different decision.
+    The user is back in the forest clearing from the intro
+    But with a different decision.
     """
     print("------------------------------------------------------------------")
     print("Fuck that you say to yourself")
@@ -202,5 +183,6 @@ def forest_scenario():
     Forest scenario
     """
     print("Forest")
+
 
 intro()
