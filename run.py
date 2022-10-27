@@ -127,7 +127,9 @@ def on_the_rocks_scenario():
     """
     On the rocks
     """
-    print("On the rocks")
+    on_the_rocks_function(username)
+    bad_ending_function(username)
+    back_to_start()
 
 
 def forest_clearing_scenario():

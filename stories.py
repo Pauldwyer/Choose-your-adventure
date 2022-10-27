@@ -1,3 +1,6 @@
+# This file is for long storie sections
+# Moved stories here to declutter run.py
+
 def bad_ending_function(username):
     """
     Bad ending function.
@@ -89,4 +92,53 @@ def sea_scenario_function(username):
     You can scan the beach
     You see somebody on the rocks at the far end
     That has to be a lady singing
+    """)
+
+
+def on_the_rocks_function(username):
+    """
+    On the rocks
+    """
+    print(f"""
+    --------------------------------------------------------------
+    You set out crossing the beach
+    The smell of the salt water filles your nose
+    The wind blows sand up into your face
+    you look out across the sea
+    Is there a way here to escape this nightmare?
+    You get closer to the rocks
+    The song the person is singing is hypnotizing
+    You have no idea what language
+    But it is the sweetest song you have ever heard
+    You get closer to the person and realise it is a woman
+    She has her back to you
+    She dosent hear you approach, atleast dosent show it
+    The singing gets louder
+    You now feel compelled to walk towards her
+    '{username} come closer'
+    You now feel compelled to walk towards her
+    As if your brain is not controlling your body
+    Something else is controlling your body
+    Your legs walk with a mind of there own
+    All you can think about is the voice singing the song
+    You are now around 3 metres away from the woman
+    Golden blonde hair dangles down her back
+    In a pale white dress
+    Sleek slender shoulders
+    Is this an angel from heaven?
+    She turns and glances over her shoulder at you
+    You can only see her green eyes, shoulder hiding her face
+    She turns to face you
+    You can still hear the singing in your ears
+    But her mouth isnt moving!
+    You are fozen in time, you cant move!
+    Your eyes look to her hands, they are claws!
+    She laughs and you see her mouth is full of fangs!
+    She disappears into a puff of smoke
+    The song is ringing in your ears
+
+    You feel her presence behind you
+    'Just in time' she whispers in your ear
+    'I was starting to get hungry'
+    She sinks her fangs into your neck
     """)
