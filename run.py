@@ -1,4 +1,5 @@
 import os
+# Imports stories functions from stories.py
 from stories import *
 
 # Global variable used to function loops and validation
