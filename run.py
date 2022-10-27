@@ -80,10 +80,9 @@ def start_game():
 
     """
     start_game_function()
-    print("What do you do? Do you go left?")
-    print("Or do you go right?")
+    print("What do you do?")
     while PLAY_GAME:
-        direction = input("Do you go left or right?\n").strip().lower()
+        direction = input("    Do you go left or right?\n    ").strip().lower()
         if direction == "left" or direction == "l":
             sea_scenario()
             break
