@@ -148,8 +148,6 @@ def forest_clearing_scenario():
     print("Fuck that you say to yourself")
     print("You turn and run back into the woods")
     print("")
-    print("")
-    print("")
     print("You end up back where you were, in the clearing in the forest")
     print("What do you do? Go deeper into the forest or have a rest?")
     while PLAY_GAME:
@@ -175,16 +173,6 @@ def falling_asleep_scenario():
     """
     falling_asleep_function(username)
     bad_ending()
-
-
-def bad_ending():
-    """
-    Bad ending function
-    Will give some flavour text
-    Will call the back to start function to start the game again
-    """
-    bad_ending_function(username)
-    back_to_start()
 
 
 def forest_scenario():
@@ -216,6 +204,17 @@ def deeper_into_forest():
     Deeper into forest
     """
     print("Your right the cave is spooky, you march into the woods")
+
+
+def bad_ending():
+    """
+    Bad ending function
+    Will give some flavour text
+    Will call the back to start function to start the game again
+    """
+    bad_ending_function(username)
+    back_to_start()
+
 
 
 intro()

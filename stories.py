@@ -1,11 +1,26 @@
 # This file is for long storie sections
 # Moved stories here to declutter run.py
 
+import sys
+from time import sleep
+
+
+def typewriter(text):
+    """
+    Function for slow typing in terminal window
+    Loops through text and inputs by char with delay
+    """
+    for char in text:
+        sleep(0.04)
+        sys.stdout.write(char)
+        sys.stdout.flush()
+
+
 def bad_ending_function(username):
     """
     Bad ending function.
     """
-    print(f"""
+    typewriter(f"""
     --------------------------------------------------------------
     This is the bad ending, which means you died.
 
@@ -21,7 +36,7 @@ def falling_asleep_function(username):
     """
     Falling asleep function
     """
-    print(f"""
+    typewriter(f"""
     --------------------------------------------------------------
     'Dont hurt her' you shout
     'Get back or else' you yell at the stranger
@@ -62,36 +77,36 @@ def sea_scenario_function(username):
     """
     Sea Scenario function
     """
-    print(f"""
+    typewriter(f"""
     --------------------------------------------------------------
-    You take off running in the direction of the seagul noises
-    You forget the pain in your feet
+    You take off running in the direction of the seagul noises.
+    You forget the pain in your feet.
 
     The hair starts to stand on the back of your neck.
     Oh {username} what have you done?
-    You have a feeling you are being chased
+    You have a feeling you are being chased.
     Why are you running?
     What did you do?
     Why were those people so angry??
-    You start to remember a little about the chase
+    You start to remember a little about the chase.
 
     '{username} you murderer get back here and face justice'
 
-    Suddenly you are back in the current moment
-    The trees start to become less dense
-    You star to smell salt water
-    You can hear waves crashing in the distance
-    You start to run faster
-    But your feet are screaming at you
+    Suddenly you are back in the current moment.
+    The trees start to become less dense.
+    You star to smell salt water.
+    You can hear waves crashing in the distance.
+    You start to run faster.
+    But your feet are screaming at you.
 
 
-    Finally you come out of the woods into a little hidden beach
-    You start to hear a voice singing, it sounds like a angel
-    You dont understand the words or language
-    But the sound makes you want to get closer to it
-    You can scan the beach
-    You see somebody on the rocks at the far end
-    That has to be a lady singing
+    Finally you come out of the woods into a little hidden beach.
+    You start to hear a voice singing, it sounds like a angel.
+    You dont understand the words or language.
+    But the sound makes you want to get closer to it.
+    You can scan the beach.
+    You see somebody on the rocks at the far end.
+    That has to be a lady singing.
     """)
 
 
@@ -100,30 +115,30 @@ def forest_scene_function(username):
     Going into the forest function
     Called from the forest clearing
     """
-    print(f"""
+    typewriter(f"""
     --------------------------------------------------------------
-    You decide to go deeper into the woods
-    You need to find somewhere to rest
+    You decide to go deeper into the woods.
+    You need to find somewhere to rest.
 
-    You walk deeper and deeper into the woods
-    The only sound you hear is twigs and branches crushing under your feet
+    You walk deeper and deeper into the woods.
+    The only sound you hear is twigs and branches crushing under your feet.
 
-    How did you get into this situation
-    You cant remember what happened 5 hours ago
+    How did you get into this situation.
+    You cant remember what happened 5 hours ago.
     Oh {username} what have you gotten yourself into this time.
 
-    But you start to remember some things
-    You start to get lost in your thoughts
+    But you start to remember some things.
+    You start to get lost in your thoughts.
 
-    You remember jumping out the window
-    You remember Pierre shouting murderer at you
+    You remember jumping out the window.
+    You remember Pierre shouting murderer at you.
     Who did you kill??
     And why was your wives father calling you murderer??
     Why did Pierre and his 4 brothers chase you out of the village??
 
-    You snap back into reality
-    You have never been this deep into the woods
-    Surely you are near the foot of the Everlook mountain
+    You snap back into reality.
+    You have never been this deep into the woods.
+    Surely you are near the foot of the Everlook mountain.
     You are actually and whats that ahead?
     Is that a cave in the foot of the mountain?
     Do you hide in the cave or keep going through the woods?
@@ -134,46 +149,58 @@ def on_the_rocks_function(username):
     """
     On the rocks
     """
-    print(f"""
+    typewriter(f"""
     --------------------------------------------------------------
-    You set out crossing the beach
-    The smell of the salt water filles your nose
-    The wind blows sand up into your face
-    You look out across the sea
+    You set out crossing the beach.
+    The smell of the salt water filles your nose.
+    The wind blows sand up into your face.
+    You look out across the sea.
     Is there a way here to escape this nightmare?
-    You get closer to the rocks
-    The song the person is singing is hypnotizing
-    You have no idea what language
-    But it is the sweetest song you have ever heard
-    You get closer to the person and realise it is a woman
-    She has her back to you
-    She dosent hear you approach, atleast dosent show it
-    The singing gets louder
-    You now feel compelled to walk towards her
+
+    You get closer to the rocks.
+    The song the person is singing is hypnotizing.
+    You have no idea what language.
+    But it is the sweetest song you have ever heard.
+
+    You get closer to the person and realise it is a woman.
+    She has her back to you.
+    She dosent hear you approach, atleast dosent show it.
+
+    The singing gets louder.
+    You now feel compelled to walk towards her.
+
     '{username} come closer'
-    You now feel compelled to walk towards her
-    As if your brain is not controlling your body
-    Something else is controlling your body
-    Your legs walk with a mind of there own
-    All you can think about is the voice singing the song
-    You are now around 3 metres away from the woman
-    Golden blonde hair dangles down her back
-    In a pale white dress
-    Sleek slender shoulders
+    You now feel compelled to walk towards her.
+    As if your brain is not controlling your body.
+
+    Something else is controlling your body.
+    Your legs walk with a mind of there own.
+
+    All you can think about is the voice singing the song.
+
+    You are now around 3 metres away from the woman.
+    Golden blonde hair dangles down her back.
+    In a pale white dress.
+    Sleek slender shoulders.
     Is this an angel from heaven?
-    She turns and glances over her shoulder at you
-    You can only see her green eyes, shoulder hiding her face
-    She turns to face you
-    You can still hear the singing in your ears
+
+    She turns and glances over her shoulder at you.
+    You can only see her green eyes, shoulder hiding her face.
+    She turns to face you.
+
+
+    You can still hear the singing in your ears.
     But her mouth isnt moving!
     You are fozen in time, you cant move!
+
+
     Your eyes look to her hands, they are claws!
     She laughs and you see her mouth is full of fangs!
-    She disappears into a puff of smoke
-    The song is ringing in your ears
+    She disappears into a puff of smoke.
+    The song is ringing in your ears.
 
-    You feel her presence behind you
-    'Just in time' she whispers in your ear
+    You feel her presence behind you.
+    'Just in time' she whispers in your ear.
     'I was starting to get hungry'
-    She sinks her fangs into your neck
+    She sinks her fangs into your neck.
     """)
