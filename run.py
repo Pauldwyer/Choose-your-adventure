@@ -204,7 +204,7 @@ def deeper_into_cave_scene():
         decision = input("Sea, Forest or Back to the start?").strip().lower()
         if decision == "sea" or decision == "s":
             print("Tell her i sent you")
-            sea_scenario()
+            on_the_rocks_scenario()
             break
         elif decision == "forest" or decision == "f":
             print("Good Choice")
