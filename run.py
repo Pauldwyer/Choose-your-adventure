@@ -221,7 +221,7 @@ def deeper_into_forest():
     """
     Deeper into forest
     """
-    deeper_into_cave_function(username)
+    deeper_into_forest_function(username)
     while PLAY_GAME:
         decision = input("    Fight or Run?? \n").strip().lower()
         if decision == "fight" or decision == "f":
@@ -239,6 +239,13 @@ def stand_and_fight():
     fight the dogs
     """
     stand_and_fight_function(username)
+
+def run_from_dogs():
+    """
+    running
+    """
+    run_from_dogs_function()
+    bad_ending_function(username)
 
 
 

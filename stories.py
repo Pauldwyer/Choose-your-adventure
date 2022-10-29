@@ -57,7 +57,7 @@ def bad_ending_function(username):
 
     Maybe rethink your choices and play again?
 
-    If you date.
+    If you dare.
     """)
 
 
@@ -413,4 +413,25 @@ def stand_and_fight_function(username):
     """)
     typewriter(f"""
     
+    """)
+
+
+def run_from_dogs_function():
+    """
+    deeper deeper
+    """
+    print("""
+    --------------------------------------------------------------
+    """)
+    typewriter("""
+    You start to run as hard as you can
+    The 3 dogs are closing in on you
+    You trip and fall
+    The dogs pounce on you biting you all over
+    Biting and tearing lumps out of you
+    You hear someone call the dogs off
+    You cant move
+    You open your eyes and you see Pierres face
+    'Say hello to my little friend' He shows you a knife
+    And with that knife slashes your throat
     """)
