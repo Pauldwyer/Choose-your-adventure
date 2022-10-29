@@ -242,7 +242,7 @@ def stand_and_fight():
     while PLAY_GAME:
         decision = input("    Portal or Run?? \n").strip().lower()
         if decision == "portal" or decision == "p":
-            good_ending()
+            into_the_portal()
             break
         elif decision == "run" or decision == "r":
             run_from_portal()
