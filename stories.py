@@ -70,7 +70,7 @@ def falling_asleep_function(username):
     """)
     typewriter(f"""
     You sit down against a tree and rest
-    
+
     'Dont hurt her' you shout
     'Get back or else' you yell at the stranger
     The stranger slowly steps towards you
@@ -283,6 +283,44 @@ def cave_scenario_function(username):
     You feel like you have been walking in this cave for an hour
     You have almost lost all sight until you make out light ahead
     It looks like a fire is giving off light around a turn ahead
+
+    Do you go deeper into the cave or run??
+    """)
+
+
+def running_out_of_cave_function():
+    """
+    asd
+    """
+    print("""
+    --------------------------------------------------------------
+    """)
+    typewriter("""
+    You get scared and run.
+    You turn and run back the way you came.
+    You trip on a rock, fall and smack your head on the ground.
+
+    Great more amensia, just what you needed.
+
+    You get up dust your self off and keep going
+
+    You can see the entrace of the cave and keep doing.
+
+    When you leave the cave you 
+
+    *CRACK*
+
+    You were smashed over the head with a branch
+
+    'Bobby, set the dogs on him'
+
+    Who said that?
+
+    'With pleasure Pierre' you hear another voice say
+
+    3 dogs swarm you biting you and tearing lumps out of you
+
+    You die
     """)
 
 
@@ -569,5 +607,5 @@ def into_the_portal_function():
 
     This is the 'happy' ending
 
-    Hope you had fun!s
+    Hope you had fun!
     """)
