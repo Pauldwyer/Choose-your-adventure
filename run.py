@@ -34,7 +34,8 @@ def intro():
         else:
             print("    Your name cannot contain a symbol. Please try again.\n")
 
-    print(f'    Greetings {name.capitalize()}! \n    Welcome to Pauls adventure game!')
+    print(f"""Greetings {name.capitalize()}! \n    
+        Welcome to Pauls adventure game!""")
 
     while PLAY_GAME:
         start = input("    Would you like to play? Yes / No \n").lower().strip()
