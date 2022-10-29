@@ -351,3 +351,66 @@ def deeper_into_cave_function(username):
     'What will it be? And yes you will travel through time before you ask'
     'But you wont remember meeting me, or will you??'
     """)
+
+
+def deeper_into_forest_function(username):
+    """
+    deeper deeper
+    """
+    print("""
+    --------------------------------------------------------------
+    """)
+    typewriter(f"""
+    You avoid the spooky looking cave.
+    You set off, feeling the pain in your feet again.
+    You are exhausted.
+    You find a big fallen branch and decide to fashion a walking stick
+    from the branch.
+    You start to venture deeper into the forest.
+
+    You start to remember about your ranger past.
+    Many a time you would march through woods.
+    Similar to these woods but not these woods.
+    You are a stranger to these lands.
+    You left your previous life behind you.
+    Settled down in this village and started a new life.
+    The village has a funny name, they call it 'Duncannon'.
+    These woods are called The Far Woods.
+
+    Oh how long this new life lasted.
+    One cant escape ghosts of ones past he would say.
+    Oh Vesemir you think, how you wish you could
+    ask your old master for advice right now.
+    His wisdom knew no bounds.
+    He thought you all you knew about the ranger life.
+
+    'I can remember now' you say to yourself.
+    You stop for a moment to focus your mind.
+    You came to the village 2 years ago, to escape..
+    To escape... to escape the Bloody Baron !
+    The Bloody Baron of Fethard on Sea.
+    The local vagabond who roused a group of sell swords to
+    his cause and captured the Fethard Barony in a bloody war.
+
+    You came to this village to hide.
+    You crossed the bloody baron and had to lay low.
+    {username} what did you do?
+
+    *Arf arf arf arf"
+    3 dogs burst out of nowhere and are running at you full pelt!
+    What do you do??
+    Fight the dogs with your walking stick?
+    Or run?
+    """)
+
+
+def stand_and_fight_function(username):
+    """
+    deeper deeper
+    """
+    print("""
+    --------------------------------------------------------------
+    """)
+    typewriter(f"""
+    
+    """)

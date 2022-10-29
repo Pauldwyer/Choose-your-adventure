@@ -221,7 +221,25 @@ def deeper_into_forest():
     """
     Deeper into forest
     """
-    print("    Your right the cave is spooky, you march into the woods")
+    deeper_into_cave_function(username)
+    while PLAY_GAME:
+        decision = input("    Fight or Run?? \n").strip().lower()
+        if decision == "fight" or decision == "f":
+            stand_and_fight()
+            break
+        elif decision == "run" or decision == "r":
+            run_from_dogs()
+            break
+        else:
+            print("    Invalid input. Please try sea, forest or back \n")
+
+
+def stand_and_fight():
+    """
+    fight the dogs
+    """
+    stand_and_fight_function(username)
+
 
 
 def bad_ending():
