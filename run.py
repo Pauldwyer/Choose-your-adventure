@@ -130,24 +130,17 @@ def forest_clearing_scenario():
     User input is stripped of white space and converted into lowercase.
     While loop to validate user input.
     """
-    print("------------------------------------------------------------------")
-    print("Fuck that you say to yourself")
-    print("You turn and run back into the woods")
-    print("")
-    print("You end up back where you were, in the clearing in the forest")
-    print("What do you do? Go deeper into the forest or have a rest?")
+    forest_clearing_function()
     while PLAY_GAME:
-        decision = input("    Go right into the forest or rest? forest / rest\n").strip().lower()
+        decision = input("    Forest or Rest\n").strip().lower()
         if decision == "forest" or decision == "f":
-            print("    You go into the forest")
             forest_scenario()
             break
         elif decision == "rest" or decision == "r":
-            print("    You sit down with your back to a tree and fall asleep")
             falling_asleep_scenario()
             break
         else:
-            print("    Invalid input. Please try Forest or Rest. \n")
+            print("    Invalid input. Please try Forest or Rest.\n")
 
 
 def falling_asleep_scenario():

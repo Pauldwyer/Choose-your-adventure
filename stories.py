@@ -69,6 +69,8 @@ def falling_asleep_function(username):
     --------------------------------------------------------------
     """)
     typewriter(f"""
+    You sit down against a tree and rest
+    
     'Dont hurt her' you shout
     'Get back or else' you yell at the stranger
     The stranger slowly steps towards you
@@ -281,6 +283,24 @@ def cave_scenario_function(username):
     You feel like you have been walking in this cave for an hour
     You have almost lost all sight until you make out light ahead
     It looks like a fire is giving off light around a turn ahead
+    """)
+
+
+def forest_clearing_function():
+    """
+    Story for going back to the forest from the sea
+    """
+    print("""
+    --------------------------------------------------------------
+    """)
+    typewriter("""
+    No this dosent seem right you think to yourself.
+    You turn and run back into the woods.
+
+    You end up back where you were to begin with
+    in the forest clearing where you turned left.
+    What do you do?
+    Do you have a rest or do you go right further into the forest?
     """)
 
 
