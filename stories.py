@@ -412,7 +412,52 @@ def stand_and_fight_function(username):
     --------------------------------------------------------------
     """)
     typewriter(f"""
-    
+    You stand your ground.
+    You plant your feet, slight bend of the knees
+    Twist your upperbody and hold your stick like a bat.
+    These movements came naturally to you and were done
+    in seconds.
+    The first dog leaps at you
+    *CRACK*
+    You hit the first dog so hard he flies across the wood.
+    He lies in a heap at the bottom of tree.
+    The 2nd dog comes running at you.
+    *CRACK*
+    Another one bites the dust.
+    The 3rd dog stands his ground looking at you.
+    You meet his stare dead on.
+    The dog is snarling at you, saliva dripping from its mouth.
+    No move from the other 2 dogs you hit.
+    '{username}' you hear someone shout
+
+    '{username} if you touch that dog it will be the last thing you do !'
+
+    You see 3 figures come out from behind the trees.
+    Pierre, Emilys father.
+    '{username} are you ready to face justice for killing my daughter?'
+    'I didnt kill emily, I was framed!!' you protest.
+
+    'Enough of this yibber yabber' snarls Pierre 'Get him Bobby !'
+    Suddenly there is a flash of light.
+    You feel like your blinded.
+    You rub your eyes and look around.
+    Things start coming into focus again.
+
+    There is a man in a robe with a hood over his head.
+    He is leaning on a staff.
+
+    He looks at you and says 'It is not your time to die {username}'
+    'I will open you a portal'
+    'Go through the portal and find somewhere to rest'
+    'The portal will bring you to Fethard'
+    'The bloody baron found you and had your wife Emily killed'
+    'I will help you get your revenge'
+
+    Then the old man starts to speak a strange language and waves his staff.
+    A portal opens.
+    'Go quickly now'
+
+    Do you go into the portal or run away??
     """)
 
 

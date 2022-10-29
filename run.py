@@ -214,7 +214,7 @@ def deeper_into_cave_scene():
             print("    Ah you played it safe")
             back_to_start()
         else:
-            print("    Invalid input. Please try sea, forest or back \n")
+            print("    Invalid input. Please try Sea, Forest or Back \n")
 
 
 def deeper_into_forest():
@@ -231,7 +231,7 @@ def deeper_into_forest():
             run_from_dogs()
             break
         else:
-            print("    Invalid input. Please try sea, forest or back \n")
+            print("    Invalid input. Please try Fight or Run \n")
 
 
 def stand_and_fight():
@@ -239,6 +239,18 @@ def stand_and_fight():
     fight the dogs
     """
     stand_and_fight_function(username)
+    while PLAY_GAME:
+        decision = input("    Portal or Run?? \n").strip().lower()
+        if decision == "portal" or decision == "p":
+            good_ending()
+            break
+        elif decision == "run" or decision == "r":
+            run_from_portal()
+            break
+        else:
+            print("    Invalid input. Please try Portal or Run\n")
+
+
 
 def run_from_dogs():
     """
