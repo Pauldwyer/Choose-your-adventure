@@ -69,7 +69,7 @@ def back_to_start():
         elif to_the_start == "no" or to_the_start == "n":
             exit()
         else:
-            print("    Invalid input. Please try again. \n")
+            print("    Invalid input. Please try Yes or No.\n")
 
 
 def start_game():
@@ -90,7 +90,7 @@ def start_game():
             forest_scenario()
             break
         else:
-            print("    Invalid input. Please try again. \n")
+            print("    Invalid input. Please try Left or Right.\n")
 
 
 def sea_scenario():
@@ -111,7 +111,7 @@ def sea_scenario():
             forest_clearing_scenario()
             break
         else:
-            print("    Invalid input. Please try again. \n")
+            print("    Invalid input. Please try Forward or Back.\n")
 
 
 def on_the_rocks_scenario():
@@ -145,7 +145,7 @@ def forest_clearing_scenario():
             falling_asleep_scenario()
             break
         else:
-            print("    Invalid input. Please try again. \n")
+            print("    Invalid input. Please try Forest or Rest. \n")
 
 
 def falling_asleep_scenario():
@@ -173,7 +173,7 @@ def forest_scenario():
             deeper_into_forest()
             break
         else:
-            print("    Invalid input. Please try again \n")
+            print("    Invalid input. Please try Hide or Ahead \n")
 
 
 def cave_scenario():
@@ -191,7 +191,7 @@ def cave_scenario():
             running_out_of_cave_scene()
             break
         else:
-            print("    Invalid input. Please try again \n")
+            print("    Invalid input. Please try Deeper or Run.\n")
 
 
 def deeper_into_cave_scene():
