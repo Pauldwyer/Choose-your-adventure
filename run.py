@@ -25,33 +25,33 @@ def intro():
     """
 
     while PLAY_GAME:
-        name = input("What is your name? \n").lower().strip()
+        name = input("    What is your name? \n").lower().strip()
         if len(name) < 1:
-            print("Length of username is too short. Please try again.\n")
+            print("    Length of username is too short. Please try again.\n")
         elif len(name) > 20:
-            print("Length of username is too long. Please try again.\n")
+            print("    Length of username is too long. Please try again.\n")
         elif all(char.isalpha() or char.isspace() for char in name):
             global username
             username = " ".join(name.split()).title()
             break
         elif any(char.isdigit() for char in name):
-            print("Your name cannot contain a number. Please try again.\n")
+            print("    Your name cannot contain a number. Please try again.\n")
         else:
-            print("Your name cannot contain a symbol. Please try again.\n")
+            print("    Your name cannot contain a symbol. Please try again.\n")
 
-    print(f'Greetings {name.capitalize()}! \nWelcome to Pauls adventure game!')
+    print(f'    Greetings {name.capitalize()}! \n    Welcome to Pauls adventure game!')
 
     while PLAY_GAME:
-        start = input("Would you like to play? Yes / No\n").lower().strip()
+        start = input("    Would you like to play? Yes / No \n").lower().strip()
         if start == "yes" or start == "y":
-            print("Great! lets play the game then")
+            print("    Great! lets play the game then")
             start_game()
             break
         elif start == "no" or start == "n":
-            print("Coward!")
+            print("    Coward!")
             back_to_start()
         else:
-            print("Invalid input. Please try again. \n")
+            print("    Invalid input. Please try again. \n")
 
 
 def back_to_start():
@@ -63,13 +63,13 @@ def back_to_start():
     User input is stripped of white space and converted into lowercase
     """
     while PLAY_GAME:
-        to_the_start = input("Would you like to go back to the start? y/n \n").lower().strip()
+        to_the_start = input("    Would you like to go back to the start? y/n \n").lower().strip()
         if to_the_start == "yes" or to_the_start == "y":
             intro()
         elif to_the_start == "no" or to_the_start == "n":
             exit()
         else:
-            print("Invalid input. Please try again. \n")
+            print("    Invalid input. Please try again. \n")
 
 
 def start_game():
@@ -90,7 +90,7 @@ def start_game():
             forest_scenario()
             break
         else:
-            print("Invalid input. Please try again. \n")
+            print("    Invalid input. Please try again. \n")
 
 
 def sea_scenario():
@@ -102,8 +102,8 @@ def sea_scenario():
     """
     sea_scenario_function(username)
     while PLAY_GAME:
-        print("Do you go forward and ask for help or go back into the forest")
-        direction = input("Forward or back?\n").strip().lower()
+        print("    Do you go forward and ask for help or go back into the forest")
+        direction = input("    Forward or back?\n").strip().lower()
         if direction == "forward" or direction == "f":
             on_the_rocks_scenario()
             break
@@ -111,7 +111,7 @@ def sea_scenario():
             forest_clearing_scenario()
             break
         else:
-            print("Invalid input. Please try again. \n")
+            print("    Invalid input. Please try again. \n")
 
 
 def on_the_rocks_scenario():
@@ -135,17 +135,17 @@ def forest_clearing_scenario():
     print("You end up back where you were, in the clearing in the forest")
     print("What do you do? Go deeper into the forest or have a rest?")
     while PLAY_GAME:
-        decision = input("Go right into the forest or rest? forest / rest\n").strip().lower()
+        decision = input("    Go right into the forest or rest? forest / rest\n").strip().lower()
         if decision == "forest" or decision == "f":
-            print("You go into the forest")
+            print("    You go into the forest")
             forest_scenario()
             break
         elif decision == "rest" or decision == "r":
-            print("You sit down with your back to a tree and fall asleep")
+            print("    You sit down with your back to a tree and fall asleep")
             falling_asleep_scenario()
             break
         else:
-            print("Invalid input. Please try again. \n")
+            print("    Invalid input. Please try again. \n")
 
 
 def falling_asleep_scenario():
@@ -165,7 +165,7 @@ def forest_scenario():
     """
     forest_scene_function(username)
     while PLAY_GAME:
-        decision = input("Hide or go ahead? hide/ahead \n").strip().lower()
+        decision = input("    Hide or go ahead? hide/ahead \n").strip().lower()
         if decision == "hide" or decision == "h":
             cave_scenario()
             break
@@ -173,7 +173,7 @@ def forest_scenario():
             deeper_into_forest()
             break
         else:
-            print("Invalid input. Please try again \n")
+            print("    Invalid input. Please try again \n")
 
 
 def cave_scenario():
@@ -182,8 +182,8 @@ def cave_scenario():
     """
     cave_scenario_function(username)
     while PLAY_GAME:
-        print("Do you go deeper into the cave or run?")
-        decision = input("Deeper or Run?? /n").strip().lower()
+        print("    Do you go deeper into the cave or run?")
+        decision = input("    Deeper or Run?? /n").strip().lower()
         if decision == "deeper" or decision == "deep":
             deeper_into_cave_scene()
             break
@@ -191,7 +191,7 @@ def cave_scenario():
             running_out_of_cave_scene()
             break
         else:
-            print("Invalid input. Please try again \n")
+            print("    Invalid input. Please try again \n")
 
 
 def deeper_into_cave_scene():
@@ -200,28 +200,28 @@ def deeper_into_cave_scene():
     """
     deeper_into_cave_function(username)
     while PLAY_GAME:
-        print("Quickly you must choose")
-        decision = input("Sea, Forest or Back to the start?").strip().lower()
+        print("    Quickly you must choose")
+        decision = input("    Sea, Forest or Back to the start?").strip().lower()
         if decision == "sea" or decision == "s":
-            print("Tell her i sent you")
+            print("    Tell her i sent you")
             on_the_rocks_scenario()
             break
         elif decision == "forest" or decision == "f":
-            print("Good Choice")
+            print("    Good Choice")
             forest_scenario()
             break
         elif decision == "back" or decision == "b":
-            print("Ah you played it safe")
+            print("    Ah you played it safe")
             back_to_start()
         else:
-            print("Invalid input. Please try sea, forest or back \n")
+            print("    Invalid input. Please try sea, forest or back \n")
 
 
 def deeper_into_forest():
     """
     Deeper into forest
     """
-    print("Your right the cave is spooky, you march into the woods")
+    print("    Your right the cave is spooky, you march into the woods")
 
 
 def bad_ending():
