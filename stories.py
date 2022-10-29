@@ -498,3 +498,55 @@ def run_from_portal_function():
     'Get him boys, we will bring him back to the village
     and flay him for all to see.'
     """)
+
+
+def into_the_portal_function():
+    """
+    asdfd
+    """
+    print("""
+    --------------------------------------------------------------
+    """)
+    typewriter("""
+    You step towards the portal.
+    Pierre screams 'No i wont stand for this !!!'
+
+    The mage whispers some words and points his staff at Pierre
+    In a flash Pierre turns into a smoking pile of ash
+    'He wont be missed' the mage says.
+    Pierres goons turn and run.
+
+    You pause for a second turn to the mage and say
+    'Who are you??'
+    'I am Damon. The guardian of this realm. Now go on
+    I will meet you on the otherside, there will be a house
+    go inside and rest, i will come along soon'
+
+    And with that you step through the portal.
+    
+    You are in the middle of a road and you see a small
+    house on the side of the road.
+
+    You start to hear a voice of a woman singing.
+    You look around to see who it is.
+
+    You notice a woman sitting on the wall outside the house.
+    Golden blonde hair hanging down her back.
+
+    Intrigued by the song you start to walk towards her.
+    """)
+    print("""
+    --------------------------------------------------------------
+    """)
+    typewriter("""
+    Congratulations!!!
+
+    You have made it to the end of the story
+
+    This is the 'happy' ending
+
+    Hope you had fun!s
+    """)
+
+
+    

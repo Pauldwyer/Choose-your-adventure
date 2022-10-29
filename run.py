@@ -272,7 +272,8 @@ def into_the_portal():
     """
     add
     """
-    
+    into_the_portal_function()
+    back_to_start()
 
 
 def bad_ending():
