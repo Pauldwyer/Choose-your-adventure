@@ -307,7 +307,7 @@ def deeper_into_cave_function(username):
     Hes wrapped in a cloak with a hood over his head
 
     'Ah {username} i wondered if you would make it here'
-    You are shocked, what the hell is going on here you wonder 
+    You are shocked, what the hell is going on here you wonder
 
     'Ah dont worry {username} all will be clear soon' says the man
     Hes reading your mind?! Who the hell is this guy
@@ -318,23 +318,27 @@ def deeper_into_cave_function(username):
     Damon you think... Damon !! the legendary mage?!
 
     The Damon who stopped the orc invasion from the southlands?
-    Legen has it Damon the mage stopped the invasion of 100k orcs 
+    Legen has it Damon the mage stopped the invasion of 100k orcs
     And turned the tide of the war of the long night
 
     'Yes yes that was me but it wasnt quite 100k more like 10k'
     You feel compelled to sit down
-    'Good those poor feet of yours, i dread to think of the blisters you will have'
+    'Good those poor feet of yours,
+    i dread to think of the blisters you will have'
 
     'Your time is limited so lets get to it'
     'You may have heard i am a very powerful mage'
-    'I know of your a little confused, you cant quite remember why you are being pursued'
+    'I know of your a little confused,
+    you cant quite remember why you are being pursued'
 
     You keenly listen to the man, taking it all in
-    'A ghost from your ranger past caught up with you and attacked you in your house'
+    'A ghost from your ranger past caught up with you
+    and attacked you in your house'
     'All your memories will be back in time dont worry'
     'This ghost killed your beloved wife Emily'
     'Her father walked in on you with the murder weapon in your hand'
-    'You ofcourse were knocked out, the ghost hit you over the head with a blackjack'#
+    'You ofcourse were knocked out,
+    the ghost hit you over the head with a blackjack'
     'The Pierre the father in law threw you out the window'
     'All of that head trauma made you lose your memory'
     'Dont worry it will come back in time'
@@ -523,7 +527,7 @@ def into_the_portal_function():
     go inside and rest, i will come along soon'
 
     And with that you step through the portal.
-    
+
     You are in the middle of a road and you see a small
     house on the side of the road.
 
@@ -547,6 +551,3 @@ def into_the_portal_function():
 
     Hope you had fun!s
     """)
-
-
-    

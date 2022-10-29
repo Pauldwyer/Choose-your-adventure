@@ -1,4 +1,3 @@
-import os
 # Imports stories functions from stories.py
 from stories import *
 
@@ -11,17 +10,13 @@ username = " "
 
 def intro():
     """
-    Introduction to the game.
-    Asks user for their name and then greets the player.
-    The name is validated for length, symbols and numbers using a while loop.
-    If the name contains symbols or numbers the user is prompted to enter again.
-    The user is then asked do they want to play a game.
-    If the user answers yes then the start_game function is called.
-    If the user answers no the the user is called a coward and
-    the back_to_start function is called.
-    A while loop evaluates user input.
-    Only answers allowed are Yes, Y, No, N.
-    Both user inputs is stripped of white space and converted into lowercase.
+    Introduction to the game fucntion.
+    Called to start the game loop.
+    Asks user for input to assign variable username.
+    Asks for another input
+    Either 1 of 2 functions are called based on that input.
+    All inputs stripped of whitespace and coverted to lowercase.
+    All inputs validated with while loop.
     """
 
     while PLAY_GAME:
@@ -56,11 +51,11 @@ def intro():
 
 def back_to_start():
     """
-    Asks the user do they want to go back to the start of the game
-    If yes or y then the intro runs again
-    If no or n the user exits the programme
-    A while loop evaluates the user input
-    User input is stripped of white space and converted into lowercase
+    Back to start function.
+    Takes user input.
+    Calls either 1 of 2 functions based on input.
+    While loop validates input.
+    User input is stripped of white space and converted into lowercase.
     """
     while PLAY_GAME:
         to_the_start = input("    Would you like to go back to the start? y/n \n").lower().strip()
@@ -74,10 +69,11 @@ def back_to_start():
 
 def start_game():
     """
-    Starts the game
-    Gives the user the first choice
-    While loop to validate user input
-
+    Start game function. Starts the story.
+    Takes user input.
+    Calls either 1 of 2 functions based on input.
+    User input is stripped of white space and converted into lowercase.
+    While loop to validate user input.
     """
     start_game_function()
     print("What do you do?")
@@ -95,10 +91,11 @@ def start_game():
 
 def sea_scenario():
     """
-    Story for when you take the direction of left in the forest clearing.
-    Brings the user to a hidden beach
-    Gives the user a choice to continue or go back to the forest.
-
+    Sea scenario function
+    Takes user input.
+    Calls either 1 of 2 functions based on input.
+    User input is stripped of white space and converted into lowercase.
+    While loop to validate user input.
     """
     sea_scenario_function(username)
     while PLAY_GAME:
@@ -116,7 +113,9 @@ def sea_scenario():
 
 def on_the_rocks_scenario():
     """
-    On the rocks
+    On the rocks scenario function
+    Calls 3 functions in order.
+    Gives user story, the bad ending and ask do they want to start again.
     """
     on_the_rocks_function(username)
     bad_ending_function(username)
@@ -125,8 +124,11 @@ def on_the_rocks_scenario():
 
 def forest_clearing_scenario():
     """
-    The user is back in the forest clearing from the intro
-    But with a different decision.
+    Forest clearing scenario function
+    Takes user input.
+    Calls either 1 of 2 functions based on input.
+    User input is stripped of white space and converted into lowercase.
+    While loop to validate user input.
     """
     print("------------------------------------------------------------------")
     print("Fuck that you say to yourself")
@@ -150,10 +152,9 @@ def forest_clearing_scenario():
 
 def falling_asleep_scenario():
     """
-    Continues the story from when the user decides to rest.
-    Gives a little back story to the story.
-    This is a bad ending.
-    Calls the bad_ending function.
+    Falling asleep scenario.
+    Calls 2 functions in order.
+    Bad ending.
     """
     falling_asleep_function(username)
     bad_ending()
@@ -162,6 +163,10 @@ def falling_asleep_scenario():
 def forest_scenario():
     """
     Forest scenario
+    Takes user input.
+    Calls either 1 of 2 functions based on input.
+    User input is stripped of white space and converted into lowercase.
+    While loop to validate user input.
     """
     forest_scene_function(username)
     while PLAY_GAME:
@@ -178,7 +183,11 @@ def forest_scenario():
 
 def cave_scenario():
     """
-    Into the cave
+    Into the cave scenario
+    Takes user input.
+    Calls either 1 of 2 functions based on input.
+    User input is stripped of white space and converted into lowercase.
+    While loop to validate user input.
     """
     cave_scenario_function(username)
     while PLAY_GAME:
@@ -196,7 +205,11 @@ def cave_scenario():
 
 def deeper_into_cave_scene():
     """
-    Venture deeper into the cave
+    deeper into the cave scene
+    Takes user input.
+    Calls either 1 of 3 functions based on input.
+    User input is stripped of white space and converted into lowercase.
+    While loop to validate user input.
     """
     deeper_into_cave_function(username)
     while PLAY_GAME:
@@ -220,6 +233,10 @@ def deeper_into_cave_scene():
 def deeper_into_forest():
     """
     Deeper into forest
+    Takes user input.
+    Calls either 1 of 2 functions based on input.
+    User input is stripped of white space and converted into lowercase.
+    While loop to validate user input.
     """
     deeper_into_forest_function(username)
     while PLAY_GAME:
@@ -237,6 +254,10 @@ def deeper_into_forest():
 def stand_and_fight():
     """
     fight the dogs
+    Takes user input.
+    Calls either 1 of 2 functions based on input.
+    User input is stripped of white space and converted into lowercase.
+    While loop to validate user input.
     """
     stand_and_fight_function(username)
     while PLAY_GAME:
@@ -251,18 +272,21 @@ def stand_and_fight():
             print("    Invalid input. Please try Portal or Run\n")
 
 
-
 def run_from_dogs():
     """
-    running
+    Run from dogs.
+    Calls 1 functions from stories.py.
+    Calls Bad ending function.
     """
     run_from_dogs_function()
-    bad_ending_function(username)
+    bad_ending()
 
 
 def run_from_portal():
     """
-    asdf
+    Run from portal function.
+    Calls 1 function from stories.py
+    Calls bad ending function.
     """
     run_from_portal_function(username)
     bad_ending()
@@ -270,7 +294,9 @@ def run_from_portal():
 
 def into_the_portal():
     """
-    add
+    Into the portal scene
+    Calls 1 function from stories.py.
+    Calls back to start function.
     """
     into_the_portal_function()
     back_to_start()
@@ -278,9 +304,9 @@ def into_the_portal():
 
 def bad_ending():
     """
-    Bad ending function
-    Will give some flavour text
-    Will call the back to start function to start the game again
+    Bad ending function.
+    Calls 1 from function from stories.py.
+    Calls back to start function.
     """
     bad_ending_function(username)
     back_to_start()
