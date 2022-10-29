@@ -480,3 +480,21 @@ def run_from_dogs_function():
     'Say hello to my little friend' He shows you a knife
     And with that knife slashes your throat
     """)
+
+
+def run_from_portal_function():
+    """
+    deeper deeper
+    """
+    print("""
+    --------------------------------------------------------------
+    """)
+    typewriter("""
+    You turn to run
+    'Ugh why are you such a dissapointment' the mage said.
+    The mage waves his staff and you collapse on the floor paralysed.
+    'Pierre you can have him' the mage says.
+    And with that he disappears in a flash.
+    'Get him boys, we will bring him back to the village
+    and flay him for all to see.'
+    """)

@@ -260,6 +260,20 @@ def run_from_dogs():
     bad_ending_function(username)
 
 
+def run_from_portal():
+    """
+    asdf
+    """
+    run_from_portal_function(username)
+    bad_ending()
+
+
+def into_the_portal():
+    """
+    add
+    """
+    
+
 
 def bad_ending():
     """
