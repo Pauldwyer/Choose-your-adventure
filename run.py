@@ -1,11 +1,24 @@
 # Imports stories functions from stories.py
 from stories import *
 
+from os import system, name
+
 # Global variable used to function loops and validation
 PLAY_GAME = True
 
 # Global variable for the username
 username = " "
+
+
+def clear():
+ 
+    # for windows
+    if name == 'nt':
+        _ = system('cls')
+ 
+    # for mac and linux(here, os.name is 'posix')
+    else:
+        _ = system('clear')
 
 
 def intro():
@@ -74,7 +87,7 @@ def back_to_start():
     User input is stripped of white space and converted into lowercase.
     """
     while PLAY_GAME:
-        to_the_start = input("    Would you like to go back to the start? y/n \n").lower().strip()
+        to_the_start = input("    Would you like to go back to the start?\n").lower().strip()
         if to_the_start == "yes" or to_the_start == "y":
             intro()
         elif to_the_start == "no" or to_the_start == "n":
@@ -113,6 +126,7 @@ def sea_scenario():
     User input is stripped of white space and converted into lowercase.
     While loop to validate user input.
     """
+    clear()
     sea_scenario_function(username)
     while PLAY_GAME:
         print("    Do you go forward and ask for help or go back into the forest")
