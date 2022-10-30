@@ -199,7 +199,7 @@ def forest_scenario():
     clear()
     forest_scene_function(username)
     while PLAY_GAME:
-        decision = input("    Hide or go ahead? hide/ahead \n").strip().lower()
+        decision = input("\n    Hide or go ahead?\n").strip().lower()
         if decision == "hide" or decision == "h":
             cave_scenario()
             break
