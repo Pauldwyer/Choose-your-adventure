@@ -19,6 +19,22 @@ def intro():
     All inputs validated with while loop.
     """
 
+    typewriter_title("""
+ ______  __ __    ___      _____   ____  ____       __    __   ___    ___   ___   _____
+|      ||  |  |  /  _]    |     | /    ||    \     |  |__|  | /   \  /   \ |   \ / ___/
+|      ||  |  | /  [_     |   __||  o  ||  D  )    |  |  |  ||     ||     ||    (   \_ 
+|_|  |_||  _  ||    _]    |  |_  |     ||    /     |  |  |  ||  O  ||  O  ||  D  \__  |
+  |  |  |  |  ||   [_     |   _] |  _  ||    \     |  `  '  ||     ||     ||     /  \ |
+  |  |  |  |  ||     |    |  |   |  |  ||  .  \     \      / |     ||     ||     \    |
+  |__|  |__|__||_____|    |__|   |__|__||__|\_|      \_/\_/   \___/  \___/ |_____|\___|
+
+    """)
+
+    typewriter("""
+    Welcome to The Far Woods
+    An Interactive Story by Paul Dwyer \n""")
+    
+
     while PLAY_GAME:
         name = input("    What is your name? \n").lower().strip()
         if len(name) < 1:
@@ -34,8 +50,7 @@ def intro():
         else:
             print("    Your name cannot contain a symbol. Please try again.\n")
 
-    print(f"""Greetings {name.capitalize()}! \n    
-        Welcome to Pauls adventure game!""")
+    print(f"    Greetings {name.capitalize()}!")
 
     while PLAY_GAME:
         start = input("    Would you like to play? Yes / No \n").lower().strip()

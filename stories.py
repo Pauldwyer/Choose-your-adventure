@@ -16,6 +16,17 @@ def typewriter(text):
         sys.stdout.flush()
 
 
+def typewriter_title(text):
+    """
+    Function for slow typing in terminal window
+    Loops through text and inputs by char with delay
+    """
+    for char in text:
+        sleep(0.01)
+        sys.stdout.write(char)
+        sys.stdout.flush()
+
+
 def start_game_function():
     """
     Start game
@@ -29,7 +40,6 @@ def start_game_function():
     Why are you running?
     You cant quite remember
 
-    The soles of your feet are screaming
     You cant keep going
 
     You come to a clearing in the woods
@@ -76,25 +86,30 @@ def falling_asleep_function(username):
     The stranger slowly steps towards you
     He has a blade in one hand and a blackjack in the other
     You turn to Emily and say 'Everything will be ok baby'
-    You turn again back to the stranger, he is edging closer slowly
-    'What do you want' you scream
-    'You must pay for your transgressions' says the stranger in a lowly growl
-    You quickly grab the clock off the fireplace and you charge the stranger
+    You turn again back to the stranger,
+    he is edging closer to you slowly.
+    'What do you want' you scream!
+    'You must pay for your transgressions'
+    Said the stranger in a lowly growl.
+    You quickly grab the clock off the fireplace
+    And you charge the stranger.
     You swing with all your strength aiming for his head
     But he is too fast, he side steps your attemp
     and cracks you across the head with the blackjack
     You pass out
 
     You awake and find a bloody blade in your hand
-    You throw it across the floor, your hand is covered in blood
-    You look up and scan the room, you see Emily on the floor
+    You throw it across the floor, 
+    your hand is covered in blood.
+    You look up and scan the room, you see Emily on the floor.
     She is covered in blood
     The door opens and Emilys father walks in
     'What in the seven hells have you done' he shouts
 
     *Crack*
 
-    You awake with a splitting headache, you are back in the forest clearing
+    You awake with a splitting headache, 
+    you are back in the forest clearing.
     Your tied up against the tree
     5 men looking down on you
     You recognise Emilys father Pierre
@@ -158,7 +173,8 @@ def forest_scene_function(username):
     You need to find somewhere to rest.
 
     You walk deeper and deeper into the woods.
-    The only sound you hear is twigs and branches crushing under your feet.
+    The only sound you hear is twigs and 
+    branches crushing under your feet.
 
     How did you get into this situation.
     You cant remember what happened 5 hours ago.
@@ -257,7 +273,8 @@ def cave_scenario_function(username):
 
     As you approach the cave face you feel a cold air blow out.
 
-    The entrance to the cave is big and the ground leading in is will trodden.
+    The entrance to the cave is big and 
+    the ground leading in is will trodden.
     This isnt some random cave, this is well used.
     You kneel down and feel the dirt.
     Looking for foot prints.
@@ -306,7 +323,7 @@ def running_out_of_cave_function():
 
     You can see the entrace of the cave and keep doing.
 
-    When you leave the cave you 
+    When you leave the cave you
 
     *CRACK*
 
@@ -372,7 +389,8 @@ def deeper_into_cave_function(username):
     You start to take 2 steps back preparing to run
     Suddenly the pain in your feet returns with a vengence
 
-    'I am Damon, and please dont run. Sit down your feet will thank you'
+    'I am Damon, and please dont run. 
+    Sit down your feet will thank you'
     Damon you think... Damon !! the legendary mage?!
 
     The Damon who stopped the orc invasion from the southlands?
