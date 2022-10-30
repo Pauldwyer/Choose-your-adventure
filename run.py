@@ -89,7 +89,7 @@ def back_to_start():
     """
     while PLAY_GAME:
         print("\n    Would you like to go back to the start?")
-        decision = input("Yes or No")
+        decision = input("    Yes or No")
         if decision == "yes" or to_the_start == "y":
             intro()
         elif decision == "no" or to_the_start == "n":
