@@ -89,7 +89,7 @@ def back_to_start():
     User input is stripped of white space and converted into lowercase.
     """
     while PLAY_GAME:
-        to_the_start = input("    Would you like to go back to the start?\n").lower().strip()
+        to_the_start = input("\n    Would you like to go back to the start?").lower().strip()
         if to_the_start == "yes" or to_the_start == "y":
             intro()
         elif to_the_start == "no" or to_the_start == "n":
@@ -131,7 +131,7 @@ def sea_scenario():
     clear()
     sea_scenario_function(username)
     while PLAY_GAME:
-        print("    Do you go forward and ask for help or go back into the forest")
+        print("\n    Do you go forward and ask for help or go back into the forest")
         direction = input("    Forward or back?\n").strip().lower()
         if direction == "forward" or direction == "f":
             on_the_rocks_scenario()
@@ -149,6 +149,7 @@ def on_the_rocks_scenario():
     Calls 3 functions in order.
     Gives user story, the bad ending and ask do they want to start again.
     """
+    clear()
     on_the_rocks_function(username)
     bad_ending_function(username)
     back_to_start()
