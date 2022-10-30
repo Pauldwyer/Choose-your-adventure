@@ -163,6 +163,7 @@ def forest_clearing_scenario():
     User input is stripped of white space and converted into lowercase.
     While loop to validate user input.
     """
+    clear()
     forest_clearing_function()
     while PLAY_GAME:
         decision = input("    Forest or Rest\n").strip().lower()
@@ -182,6 +183,7 @@ def falling_asleep_scenario():
     Calls 2 functions in order.
     Bad ending.
     """
+    clear()
     falling_asleep_function(username)
     bad_ending()
 
@@ -194,6 +196,7 @@ def forest_scenario():
     User input is stripped of white space and converted into lowercase.
     While loop to validate user input.
     """
+    clear()
     forest_scene_function(username)
     while PLAY_GAME:
         decision = input("    Hide or go ahead? hide/ahead \n").strip().lower()
@@ -215,6 +218,7 @@ def cave_scenario():
     User input is stripped of white space and converted into lowercase.
     While loop to validate user input.
     """
+    clear()
     cave_scenario_function(username)
     while PLAY_GAME:
         decision = input("    Deeper or Run?? \n").strip().lower()
@@ -232,6 +236,7 @@ def running_out_of_cave_scene():
     """
     asdf
     """
+    clear()
     running_out_of_cave_function()
     bad_ending()
 
@@ -244,6 +249,7 @@ def deeper_into_cave_scene():
     User input is stripped of white space and converted into lowercase.
     While loop to validate user input.
     """
+    clear()
     deeper_into_cave_function(username)
     while PLAY_GAME:
         print("    Quickly you must choose")
@@ -271,6 +277,7 @@ def deeper_into_forest():
     User input is stripped of white space and converted into lowercase.
     While loop to validate user input.
     """
+    clear()
     deeper_into_forest_function(username)
     while PLAY_GAME:
         decision = input("    Fight or Run?? \n").strip().lower()
@@ -292,6 +299,7 @@ def stand_and_fight():
     User input is stripped of white space and converted into lowercase.
     While loop to validate user input.
     """
+    clear()
     stand_and_fight_function(username)
     while PLAY_GAME:
         decision = input("    Portal or Run?? \n").strip().lower()
@@ -311,6 +319,7 @@ def run_from_dogs():
     Calls 1 functions from stories.py.
     Calls Bad ending function.
     """
+    clear()
     run_from_dogs_function()
     bad_ending()
 
@@ -321,6 +330,7 @@ def run_from_portal():
     Calls 1 function from stories.py
     Calls bad ending function.
     """
+    clear()
     run_from_portal_function(username)
     bad_ending()
 
@@ -331,6 +341,7 @@ def into_the_portal():
     Calls 1 function from stories.py.
     Calls back to start function.
     """
+    clear()
     into_the_portal_function()
     back_to_start()
 
@@ -341,6 +352,7 @@ def bad_ending():
     Calls 1 from function from stories.py.
     Calls back to start function.
     """
+    clear()
     bad_ending_function(username)
     back_to_start()
 
