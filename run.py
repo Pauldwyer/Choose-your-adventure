@@ -35,18 +35,17 @@ def intro():
     """
 
     typewriter_title("""
- ______  __ __    ___      _____   ____  ____       __    __   ___    ___   ___   _____
-|      ||  |  |  /  _]    |     | /    ||    \     |  |__|  | /   \  /   \ |   \ / ___/
-|      ||  |  | /  [_     |   __||  o  ||  D  )    |  |  |  ||     ||     ||    (   \_ 
-|_|  |_||  _  ||    _]    |  |_  |     ||    /     |  |  |  ||  O  ||  O  ||  D  \__  |
-  |  |  |  |  ||   [_     |   _] |  _  ||    \     |  `  '  ||     ||     ||     /  \ |
-  |  |  |  |  ||     |    |  |   |  |  ||  .  \     \      / |     ||     ||     \    |
-  |__|  |__|__||_____|    |__|   |__|__||__|\_|      \_/\_/   \___/  \___/ |_____|\___|
-
+ ______  __ __    ___      __    __   ___    ___   ___   _____
+|      ||  |  |  /  _]    |  |__|  | /   \  /   \ |   \ / ___/
+|      ||  |  | /  [_     |  |  |  ||     ||     ||    (   \_ 
+|_|  |_||  _  ||    _]    |  |  |  ||  O  ||  O  ||  D  \__  |
+  |  |  |  |  ||   [_     |  `  '  ||     ||     ||     /  \ |
+  |  |  |  |  ||     |     \      / |     ||     ||     \    |
+  |__|  |__|__||_____|      \_/\_/   \___/  \___/ |_____|\___|
     """)
 
     typewriter("""
-    Welcome to The Far Woods
+    Welcome to The Woods
     An Interactive Story by Paul Dwyer \n""")
     
 
@@ -70,7 +69,7 @@ def intro():
     while PLAY_GAME:
         start = input("    Would you like to play? Yes / No \n").lower().strip()
         if start == "yes" or start == "y":
-            print("    Great! lets play the game then")
+            print("    Great! lets go!")
             start_game()
             break
         elif start == "no" or start == "n":
@@ -89,10 +88,11 @@ def back_to_start():
     User input is stripped of white space and converted into lowercase.
     """
     while PLAY_GAME:
-        to_the_start = input("\n    Would you like to go back to the start?").lower().strip()
-        if to_the_start == "yes" or to_the_start == "y":
+        print("\n    Would you like to go back to the start?")
+        decision = input("Yes or No")
+        if decision == "yes" or to_the_start == "y":
             intro()
-        elif to_the_start == "no" or to_the_start == "n":
+        elif decision == "no" or to_the_start == "n":
             exit()
         else:
             print("    Invalid input. Please try Yes or No.\n")
