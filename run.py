@@ -1,6 +1,7 @@
 # Imports stories functions from stories.py
 from stories import *
 
+# Import needed for clear terminal function
 from os import system, name
 
 # Global variable used to function loops and validation
@@ -9,13 +10,14 @@ PLAY_GAME = True
 # Global variable for the username
 username = " "
 
-
+# Clear terminal function
+# Taken from geeksforgeeks
 def clear():
- 
+
     # for windows
     if name == 'nt':
         _ = system('cls')
- 
+
     # for mac and linux(here, os.name is 'posix')
     else:
         _ = system('clear')
