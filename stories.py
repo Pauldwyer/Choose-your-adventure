@@ -29,7 +29,7 @@ def typewriter_title(text):
 
 def start_game_function():
     """
-    Start game
+    Prints the story for the start of the game.
     """
     print("""
     --------------------------------------------------------------
@@ -56,6 +56,7 @@ def start_game_function():
 def bad_ending_function(username):
     """
     Bad ending function.
+    Prints some art and tells the user they died.
     """
     print("""
     --------------------------------------------------------------
@@ -83,7 +84,7 @@ def bad_ending_function(username):
 
 def falling_asleep_function(username):
     """
-    Falling asleep function
+    Prints the story when the user chooses to rest in the clearing.
     """
     print("""
     --------------------------------------------------------------
@@ -133,7 +134,7 @@ def falling_asleep_function(username):
 
 def sea_scenario_function(username):
     """
-    Sea Scenario function
+    Prints the story when the user decides to go left at the start.
     """
     print("""
     --------------------------------------------------------------
@@ -172,8 +173,7 @@ def sea_scenario_function(username):
 
 def forest_scene_function(username):
     """
-    Going into the forest function
-    Called from the forest clearing
+    Prints the story when the user chooses to go deeper into the forest.
     """
     print("""
     --------------------------------------------------------------
@@ -210,7 +210,7 @@ def forest_scene_function(username):
 
 def on_the_rocks_function(username):
     """
-    On the rocks
+    Prints the story for when the user chooses to go to the rocks.
     """
     print("""
     --------------------------------------------------------------
@@ -273,7 +273,7 @@ def on_the_rocks_function(username):
 
 def cave_scenario_function(username):
     """
-    Into the cave we go
+    Prints the story for when the user goes into the cave.
     """
     print("""
     --------------------------------------------------------------
@@ -317,7 +317,7 @@ def cave_scenario_function(username):
 
 def running_out_of_cave_function():
     """
-    asd
+    Prints the story for when the user runs out of the cave.
     """
     print("""
     --------------------------------------------------------------
@@ -353,7 +353,7 @@ def running_out_of_cave_function():
 
 def forest_clearing_function():
     """
-    Story for going back to the forest from the sea
+    Prints the story when the user turns around and goes back to the woods.
     """
     print("""
     --------------------------------------------------------------
@@ -371,7 +371,7 @@ def forest_clearing_function():
 
 def deeper_into_cave_function(username):
     """
-    Into the dark depths we go
+    Prints the story when the user goes deeper into the cave.
     """
     print("""
     --------------------------------------------------------------
@@ -445,7 +445,7 @@ def deeper_into_cave_function(username):
 
 def deeper_into_forest_function(username):
     """
-    deeper deeper
+    Prints the story for when the user goes deeper into the forest.
     """
     print("""
     --------------------------------------------------------------
@@ -496,7 +496,7 @@ def deeper_into_forest_function(username):
 
 def stand_and_fight_function(username):
     """
-    deeper deeper
+    Prints the story for when the user stands and fights.
     """
     print("""
     --------------------------------------------------------------
@@ -553,7 +553,7 @@ def stand_and_fight_function(username):
 
 def run_from_dogs_function():
     """
-    deeper deeper
+    Prints the story for when the user runs from the dogs.
     """
     print("""
     --------------------------------------------------------------
@@ -574,7 +574,7 @@ def run_from_dogs_function():
 
 def run_from_portal_function():
     """
-    deeper deeper
+    Prints the story for when the user runs from the portal.
     """
     print("""
     --------------------------------------------------------------
@@ -592,7 +592,7 @@ def run_from_portal_function():
 
 def into_the_portal_function():
     """
-    asdfd
+    Prints the story for when the user steps into the portal.
     """
     print("""
     --------------------------------------------------------------
@@ -645,4 +645,6 @@ def into_the_portal_function():
     This is the 'happy' ending
 
     Hope you had fun!
+
+    See you again in the next installment!
     """)
