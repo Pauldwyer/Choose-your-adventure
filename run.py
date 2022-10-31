@@ -10,6 +10,7 @@ PLAY_GAME = True
 # Global variable for the username
 username = " "
 
+
 # Clear terminal function
 # Taken from geeksforgeeks
 def clear():
@@ -125,6 +126,7 @@ def start_game():
 def sea_scenario():
     """
     Sea scenario function
+    Clears the terminal.
     Takes user input.
     Calls either 1 of 2 functions based on input.
     User input is stripped of white space and converted into lowercase.
@@ -148,6 +150,7 @@ def sea_scenario():
 def on_the_rocks_scenario():
     """
     On the rocks scenario function
+    Clears the terminal.
     Calls 3 functions in order.
     Gives user story, the bad ending and ask do they want to start again.
     """
@@ -159,7 +162,8 @@ def on_the_rocks_scenario():
 
 def forest_clearing_scenario():
     """
-    Forest clearing scenario function
+    Forest clearing scenario.
+    Clears the terminal.
     Takes user input.
     Calls either 1 of 2 functions based on input.
     User input is stripped of white space and converted into lowercase.
@@ -182,6 +186,7 @@ def forest_clearing_scenario():
 def falling_asleep_scenario():
     """
     Falling asleep scenario.
+    Clears the terminal.
     Calls 2 functions in order.
     Bad ending.
     """
@@ -193,6 +198,7 @@ def falling_asleep_scenario():
 def forest_scenario():
     """
     Forest scenario
+    Clears the terminal.
     Takes user input.
     Calls either 1 of 2 functions based on input.
     User input is stripped of white space and converted into lowercase.
@@ -215,6 +221,7 @@ def forest_scenario():
 def cave_scenario():
     """
     Into the cave scenario
+    Clears the terminal.
     Takes user input.
     Calls either 1 of 2 functions based on input.
     User input is stripped of white space and converted into lowercase.
@@ -236,7 +243,10 @@ def cave_scenario():
 
 def running_out_of_cave_scene():
     """
-    asdf
+    Running out of the cave.
+    Clears the terminal.
+    Calls 1 function from stories.py
+    Calls the bad ending function.
     """
     clear()
     running_out_of_cave_function()
@@ -246,6 +256,7 @@ def running_out_of_cave_scene():
 def deeper_into_cave_scene():
     """
     deeper into the cave scene
+    Clears the terminal
     Takes user input.
     Calls either 1 of 3 functions based on input.
     User input is stripped of white space and converted into lowercase.
@@ -274,6 +285,7 @@ def deeper_into_cave_scene():
 def deeper_into_forest():
     """
     Deeper into forest
+    Clears the terminal
     Takes user input.
     Calls either 1 of 2 functions based on input.
     User input is stripped of white space and converted into lowercase.
@@ -295,7 +307,8 @@ def deeper_into_forest():
 
 def stand_and_fight():
     """
-    fight the dogs
+    Fight the dogs
+    Clears the terminal
     Takes user input.
     Calls either 1 of 2 functions based on input.
     User input is stripped of white space and converted into lowercase.
@@ -318,6 +331,7 @@ def stand_and_fight():
 def run_from_dogs():
     """
     Run from dogs.
+    Clears the terminal
     Calls 1 functions from stories.py.
     Calls Bad ending function.
     """
@@ -329,6 +343,7 @@ def run_from_dogs():
 def run_from_portal():
     """
     Run from portal function.
+    Clears the terminal
     Calls 1 function from stories.py
     Calls bad ending function.
     """
@@ -340,6 +355,7 @@ def run_from_portal():
 def into_the_portal():
     """
     Into the portal scene
+    Clears the terminal
     Calls 1 function from stories.py.
     Calls back to start function.
     """
@@ -351,6 +367,7 @@ def into_the_portal():
 def bad_ending():
     """
     Bad ending function.
+    Clears the terminal
     Calls 1 from function from stories.py.
     Calls back to start function.
     """
