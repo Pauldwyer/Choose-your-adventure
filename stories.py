@@ -35,21 +35,21 @@ def start_game_function():
     --------------------------------------------------------------
     """)
     typewriter("""
-    Your running through the woods
-    Your feet are hurt from running so hard
+    You are running through the woods
+    Your feet are hurt from running so hard.
     Why are you running?
-    You cant quite remember
+    You can't quite remember.
 
-    You cant keep going
+    You cant keep going.
 
-    You come to a clearing in the woods
-    You stop for a second to catch your breath
+    You come to a clearing in the woods.
+    You stop for a second to catch your breath.
 
-    Everything suddenly becomes more quite
-    You take in your surroundings
+    Everything suddenly becomes quite.
+    You take in your surroundings.
 
-    It looks like you have 2 paths
-    Go left or go right
+    It looks like you have 2 paths.
+    Go left or go right?
     """)
 
 
@@ -92,20 +92,20 @@ def falling_asleep_function(username):
     typewriter(f"""
     You sit down against a tree and rest
 
-    'Dont hurt her' you shout
+    'Don't hurt her' you shout
     'Get back or else' you yell at the stranger
     The stranger slowly steps towards you
-    He has a blade in one hand and a blackjack in the other
-    You turn to Emily and say 'Everything will be ok baby'
+    He has a blade in one hand and blackjack in the other
+    You turn to Emily and say 'Everything will be an ok'
     You turn again back to the stranger,
     he is edging closer to you slowly.
     'What do you want' you scream!
     'You must pay for your transgressions'
-    Said the stranger in a lowly growl.
-    You quickly grab the clock off the fireplace
+    Said the stranger in a low growl.
+    You quickly grab the clock of the fireplace
     And you charge the stranger.
     You swing with all your strength aiming for his head
-    But he is too fast, he side steps your attemp
+    But he is too fast, he sidesteps your attempt
     and cracks you across the head with the blackjack
     You pass out
 
@@ -114,16 +114,16 @@ def falling_asleep_function(username):
     your hand is covered in blood.
     You look up and scan the room, you see Emily on the floor.
     She is covered in blood
-    The door opens and Emilys father walks in
+    The door opens and Emily's father walks in
     'What in the seven hells have you done' he shouts
 
     *Crack*
 
     You awake with a splitting headache, 
-    you are back in the forest clearing.
-    Your tied up against the tree
+    You are back in the forest clearing.
+    You are tied up against the tree
     5 men looking down on you
-    You recognise Emilys father Pierre
+    You recognise Emily's father Pierre
     'You thought you could runaway' he says
     'Now you will die for what you did to my daughter'
     'Do you have any last words {username} ?'
@@ -155,15 +155,15 @@ def sea_scenario_function(username):
 
     Suddenly you are back in the current moment.
     The trees start to become less dense.
-    You star to smell salt water.
+    You start to smell the salt water.
     You can hear waves crashing in the distance.
     You start to run faster.
     But your feet are screaming at you.
 
 
-    Finally you come out of the woods into a little hidden beach.
-    You start to hear a voice singing, it sounds like a angel.
-    You dont understand the words or language.
+    Finally, you come out of the woods into a little hidden beach.
+    You start to hear a voice singing, it sounds like an angel.
+    You don't understand the words or language.
     But the sound makes you want to get closer to it.
     You can scan the beach.
     You see somebody on the rocks at the far end.
@@ -186,9 +186,9 @@ def forest_scene_function(username):
     The only sound you hear is twigs and 
     branches crushing under your feet.
 
-    How did you get into this situation.
-    You cant remember what happened 5 hours ago.
-    Oh {username} what have you gotten yourself into this time.
+    How did you get into this situation?
+    You can't remember what happened 5 hours ago.
+    Oh {username} what have you gotten yourself into this time?
 
     But you start to remember some things.
     You start to get lost in your thoughts.
@@ -196,14 +196,14 @@ def forest_scene_function(username):
     You remember jumping out the window.
     You remember Pierre shouting murderer at you.
     Who did you kill??
-    And why was your wives father calling you murderer??
+    And why was your wife's father calling you a murderer??
     Why did Pierre and his 4 brothers chase you out of the village??
 
     You snap back into reality.
     You have never been this deep into the woods.
-    Surely you are near the foot of the Everlook mountain.
-    You are actually and whats that ahead?
-    Is that a cave in the foot of the mountain?
+    You realise you are at the foot of the Everlook mountain.
+    What is that over there?
+    Is that a cave at the foot of the mountain?
     Do you hide in the cave or keep going through the woods?
     """)
 
@@ -217,7 +217,7 @@ def on_the_rocks_function(username):
     """)
     typewriter(f"""
     You set out crossing the beach.
-    The smell of the salt water filles your nose.
+    The smell of salt water fills your nose.
     The wind blows sand up into your face.
     You look out across the sea.
     Is there a way here to escape this nightmare?
@@ -229,7 +229,7 @@ def on_the_rocks_function(username):
 
     You get closer to the person and realise it is a woman.
     She has her back to you.
-    She dosent hear you approach, atleast dosent show it.
+    She doesn't hear your approach, at least doesn't show it.
 
     The singing gets louder.
     You now feel compelled to walk towards her.
@@ -239,7 +239,7 @@ def on_the_rocks_function(username):
     As if your brain is not controlling your body.
 
     Something else is controlling your body.
-    Your legs walk with a mind of there own.
+    Your legs walk with a mind of their own.
 
     All you can think about is the voice singing the song.
 
@@ -255,8 +255,8 @@ def on_the_rocks_function(username):
 
 
     You can still hear the singing in your ears.
-    But her mouth isnt moving!
-    You are fozen in time, you cant move!
+    But her mouth isn't moving!
+    You are frozen in time, you can't move!
 
 
     Your eyes look to her hands, they are claws!
@@ -265,7 +265,7 @@ def on_the_rocks_function(username):
     The song is ringing in your ears.
 
     You feel her presence behind you.
-    'Just in time' she whispers in your ear.
+    'Just in time, she whispers in your ear.
     'I was starting to get hungry'
     She sinks her fangs into your neck.
     """)
@@ -284,10 +284,10 @@ def cave_scenario_function(username):
     As you approach the cave face you feel a cold air blow out.
 
     The entrance to the cave is big and 
-    the ground leading in is will trodden.
-    This isnt some random cave, this is well used.
-    You kneel down and feel the dirt.
-    Looking for foot prints.
+    the ground leading in is well-trodden.
+    This isn't some random cave, this is well-used.
+    You kneel and feel the dirt.
+    Looking for footprints.
     But you only feel flat earth.
 
     You start to remember your previous life as a ranger.
@@ -296,20 +296,20 @@ def cave_scenario_function(username):
     You did some horrible things in your time.
     Before you took an arrow to the knee.
 
-    You stop at the entrance, almost second guessing your decision.
-    Come on {username} lets go you whisper to yourself.
+    You stop at the entrance, almost second-guessing your decision.
+    Come on {username} let's go you whisper to yourself.
 
     You continue inside
-    The entrance is quite big, as if its made for men twice your size
+    The entrance is quite big as if its made for men twice your size
     The large entrance makes it quite bright when you walk in
-    You follow the path in cave as far as it will take you
+    You follow the path in the cave as far as it will take you
     It snakes and turns but you keep following it
     The light is all but gone and you can barely see 2 ft in front of yourself
     You keep walking
-    Its eirily quite... until *whoosh* bats fly past you
+    It is eerily quite... until *whoosh* bats fly past you
     You feel like you have been walking in this cave for an hour
-    You have almost lost all sight until you make out light ahead
-    It looks like a fire is giving off light around a turn ahead
+    You have almost lost all sight until you make out the light ahead
+    It looks like a fire is giving off the light around a turn ahead
 
     Do you go deeper into the cave or run??
     """)
@@ -327,13 +327,13 @@ def running_out_of_cave_function():
     You turn and run back the way you came.
     You trip on a rock, fall and smack your head on the ground.
 
-    Great more amensia, just what you needed.
+    Great more amnesia, just what you needed.
 
-    You get up dust your self off and keep going
+    You get up dust yourself off and keep going
 
-    You can see the entrace of the cave and keep doing.
+    You can see the entrance of the cave just ahead.
 
-    When you leave the cave you
+    You keep running until you come out the entrance.
 
     *CRACK*
 
@@ -359,10 +359,10 @@ def forest_clearing_function():
     --------------------------------------------------------------
     """)
     typewriter("""
-    No this dosent seem right you think to yourself.
+    No this doesn't seem right you think to yourself.
     You turn and run back into the woods.
 
-    You end up back where you were to begin with
+    You end up back where you were, to begin with
     in the forest clearing where you turned left.
     What do you do?
     Do you have a rest or do you go right further into the forest?
@@ -380,50 +380,50 @@ def deeper_into_cave_function(username):
     You go around the corner and suddenly you are amazed
     You walk into this huge cavern
     There is a fire in the middle, surrounded by benches
-    You count 5 beds a one end of the cavern
+    You count 5 beds at one end of the cavern
     You see a huge golden leather bound chest at one end
     The light from the fire makes the chest shine
-    You can see the flames dancing on the reflection off the gold
+    You can see the flames dancing on the reflection of the gold
 
-    You approach the fire when suddenly the air infront of you contorts
+    You approach the fire when suddenly the air in front of you contorts
     A man materialises in front of you!
 
     An old man, hunched over leaning on a staff
-    Hes wrapped in a cloak with a hood over his head
+    He's wrapped in a cloak with a hood over his head
 
-    'Ah {username} i wondered if you would make it here'
+    'Ah {username} I wondered if you would make it here'
     You are shocked, what the hell is going on here you wonder
 
-    'Ah dont worry {username} all will be clear soon' says the man
-    Hes reading your mind?! Who the hell is this guy
-    You start to take 2 steps back preparing to run
-    Suddenly the pain in your feet returns with a vengence
+    'Ah don't worry {username} all will be clear soon' says the man
+    He's reading your mind?! Who the hell is this guy
+    You start to take 2 steps back preparing to run.
+    Suddenly the pain in your feet returns with a vengeance.
 
-    'I am Damon, and please dont run. 
+    'I am Damon, and please don't run. 
     Sit down your feet will thank you'
-    Damon you think... Damon !! the legendary mage?!
+    Damon, you think... Damon !! the legendary mage?!
 
-    The Damon who stopped the orc invasion from the southlands?
+    The Damon who stopped the orc invasion from the Southlands?
     Legen has it Damon the mage stopped the invasion of 100k orcs
     And turned the tide of the war of the long night
 
-    'Yes yes that was me but it wasnt quite 100k more like 10k'
+    'Yes yes that was me but it wasn't quite 100k more like 10k'
     You feel compelled to sit down
     'Good those poor feet of yours,
-    i dread to think of the blisters you will have'
+    I dread to think of the blisters you will have'
 
-    'Your time is limited so lets get to it'
-    'You may have heard i am a very powerful mage'
-    'I know of your a little confused,
-    you cant quite remember why you are being pursued'
+    'Your time is limited so let us get to it'
+    'You may have heard I am a very powerful mage'
+    'I know your are a little confused,
+    you can't quite remember why you are being pursued'
 
     You keenly listen to the man, taking it all in
     'A ghost from your ranger past caught up with you
     and attacked you in your house'
-    'All your memories will be back in time dont worry'
+    'All your memories will be back in time don't worry'
     'This ghost killed your beloved wife Emily'
     'Her father walked in on you with the murder weapon in your hand'
-    'You ofcourse were knocked out,
+    'You of course were knocked out,
     the ghost hit you over the head with a blackjack'
     'The Pierre the father in law threw you out the window'
     'All of that head trauma made you lose your memory'
@@ -439,7 +439,7 @@ def deeper_into_cave_function(username):
 
 
     'What will it be? And yes you will travel through time before you ask'
-    'But you wont remember meeting me, or will you??'
+    'But you won't remember meeting me, or will you??'
     """)
 
 
@@ -451,14 +451,14 @@ def deeper_into_forest_function(username):
     --------------------------------------------------------------
     """)
     typewriter(f"""
-    You avoid the spooky looking cave.
+    You avoid the spooky-looking cave.
     You set off, feeling the pain in your feet again.
     You are exhausted.
     You find a big fallen branch and decide to fashion a walking stick
     from the branch.
     You start to venture deeper into the forest.
 
-    You start to remember about your ranger past.
+    You start to remember your ranger's past.
     Many a time you would march through woods.
     Similar to these woods but not these woods.
     You are a stranger to these lands.
@@ -468,8 +468,8 @@ def deeper_into_forest_function(username):
     These woods are called The Far Woods.
 
     Oh how long this new life lasted.
-    One cant escape ghosts of ones past he would say.
-    Oh Vesemir you think, how you wish you could
+    One can't escape ghosts of one's past he would say.
+    Oh, Vesemir you think, how you wish you could
     ask your old master for advice right now.
     His wisdom knew no bounds.
     He thought you all you knew about the ranger life.
@@ -477,7 +477,7 @@ def deeper_into_forest_function(username):
     'I can remember now' you say to yourself.
     You stop for a moment to focus your mind.
     You came to the village 2 years ago, to escape..
-    To escape... to escape the Bloody Baron !
+    To escape... to escape the Bloody Baron!
     The Bloody Baron of Fethard on Sea.
     The local vagabond who roused a group of sell swords to
     his cause and captured the Fethard Barony in a bloody war.
@@ -503,14 +503,14 @@ def stand_and_fight_function(username):
     """)
     typewriter(f"""
     You stand your ground.
-    You plant your feet, slight bend of the knees
-    Twist your upperbody and hold your stick like a bat.
+    You plant your feet, a slight bend of the knees
+    Twist your upper body and hold your stick like a bat.
     These movements came naturally to you and were done
     in seconds.
     The first dog leaps at you
     *CRACK*
     You hit the first dog so hard he flies across the wood.
-    He lies in a heap at the bottom of tree.
+    He lies in a heap at the bottom of a tree.
     The 2nd dog comes running at you.
     *CRACK*
     Another one bites the dust.
@@ -523,13 +523,13 @@ def stand_and_fight_function(username):
     '{username} if you touch that dog it will be the last thing you do !'
 
     You see 3 figures come out from behind the trees.
-    Pierre, Emilys father.
+    Pierre, Emily's father.
     '{username} are you ready to face justice for killing my daughter?'
-    'I didnt kill emily, I was framed!!' you protest.
+    'I didn't kill Emily, I was framed!!' you protest.
 
-    'Enough of this yibber yabber' snarls Pierre 'Get him Bobby !'
+    'Enough of this yibber yabber' snarls Pierre 'Get him, Bobby !'
     Suddenly there is a flash of light.
-    You feel like your blinded.
+    You feel like you are blinded.
     You rub your eyes and look around.
     Things start coming into focus again.
 
@@ -559,14 +559,14 @@ def run_from_dogs_function():
     --------------------------------------------------------------
     """)
     typewriter("""
-    You start to run as hard as you can
+     You start to run as hard as you can
     The 3 dogs are closing in on you
     You trip and fall
     The dogs pounce on you biting you all over
     Biting and tearing lumps out of you
     You hear someone call the dogs off
     You cant move
-    You open your eyes and you see Pierres face
+    You open your eyes and you see Pierre's face
     'Say hello to my little friend' He shows you a knife
     And with that knife slashes your throat
     """)
@@ -599,20 +599,20 @@ def into_the_portal_function():
     """)
     typewriter("""
     You step towards the portal.
-    Pierre screams 'No i wont stand for this !!!'
+    Pierre screams 'No I won't stand for this !!!'
 
     The mage whispers some words and points his staff at Pierre
-    In a flash Pierre turns into a smoking pile of ash
-    'He wont be missed' the mage says.
-    Pierres goons turn and run.
+    In a flash, Pierre turns into a smoking pile of ash
+    'He won't be missed' the mage says.
+    Pierre's goons turn and run.
 
     You pause for a second turn to the mage and say
     'Who are you??'
     'I am Damon. The guardian of this realm. Now go on
-    I will meet you on the otherside, there will be a house
-    go inside and rest, i will come along soon'
+    I will meet you on the other side, there will be a house
+    go inside and rest, I will come along soon'
 
-    And with that you step through the portal.
+    And with that, you step through the portal.
 
     You are in the middle of a road and you see a small
     house on the side of the road.
