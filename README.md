@@ -1,6 +1,12 @@
-# Choose your Adventure
+# The Woods
 
 The Woods is a Choose your Adventure / Interactive Story style game.
+
+The story begins with an introduction and the user is asked their name and if they want to play.
+
+The game starts and the user is told a story and given a choice at the end of the story section.
+
+Depending on the choice the user makes the story branches off into different paths with many different results.
 
 The live link can be found here - https://choose-your-adventure-pp3.herokuapp.com/
 
@@ -28,6 +34,12 @@ Below you will find flow chart that maps out all the entire flow of the programm
 
 
 ## Technology Used
+
+
+- [GitPod](https://gitpod.io/) - Site was developed using GitPod in broswer IDE.
+
+
+- [GitHub](https://github.com/) - Repository and version control was hosted with GitHub
 
 
 # Testing 
@@ -82,6 +94,8 @@ Will to accept all warnings because they are shown because of th ASCII art used.
 
 
 # Deployment
+
+This project was deployed using Code Institue's mock terminal for Heroku.
 
 ## How this Project was Deployed
 
