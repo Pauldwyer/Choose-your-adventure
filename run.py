@@ -135,7 +135,7 @@ def sea_scenario():
     clear()
     sea_scenario_function(username)
     while PLAY_GAME:
-        print("\n    Do you go forward and ask for help or go back into the forest")
+        print("\n    Go forward and ask for help or go back into the forest?")
         direction = input("    Forward or back?\n").strip().lower()
         if direction == "forward" or direction == "f":
             on_the_rocks_scenario()
