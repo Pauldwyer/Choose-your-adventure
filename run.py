@@ -47,7 +47,6 @@ def intro():
     typewriter("""
     Welcome to The Woods
     An Interactive Story by Paul Dwyer \n""")
-    
 
     while PLAY_GAME:
         name = input("    What is your name? \n").lower().strip()
@@ -70,10 +69,12 @@ def intro():
         start = input("    Would you like to play? Yes / No \n").lower().strip()
         if start == "yes" or start == "y":
             print("    Great! lets go!")
+            clear()
             start_game()
             break
         elif start == "no" or start == "n":
             print("    Coward!")
+            clear()
             back_to_start()
         else:
             print("    Invalid input. Please try again. \n")
@@ -89,8 +90,9 @@ def back_to_start():
     """
     while PLAY_GAME:
         print("\n    Would you like to go back to the start?")
-        decision = input("    Yes or No")
+        decision = input("\n    Yes or No \n")
         if decision == "yes" or to_the_start == "y":
+            clear()
             intro()
         elif decision == "no" or to_the_start == "n":
             exit()
