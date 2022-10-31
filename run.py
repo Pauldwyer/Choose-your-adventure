@@ -348,7 +348,7 @@ def run_from_portal():
     Calls bad ending function.
     """
     clear()
-    run_from_portal_function(username)
+    run_from_portal_function()
     bad_ending()
 
 
