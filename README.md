@@ -47,6 +47,14 @@ Below you will find flow chart that maps out all the entire flow of the programm
 
 ## Manual Testing
 
+| Type of Test | Steps | Expected Results | Results
+|--------------|-------|------------------|---------
+| Name Input Test | Open deployed site https://choose-your-adventure-pp3.herokuapp.com/    |   Directs to Terminal in webpage               | Working as intended     
+|              | Enter Name with numbers | Input error name cant contain numbers please try again | Working as intended |
+|              | Enter Name with symbols | Input error name cant contain symbols please try again | Working as intedned |
+|        | Enter name longer than 20 letters | Input error username is too long try again | Working as intended |
+|        | Dont enter any name and press enter | Input error username too short try again | Working as inteded |
+|        | Enter normal name with no symbols or numbers 4 letters long | Ask do you want to play a game? | Working as intended |
 
 ## Validator Testing 
 
@@ -115,6 +123,7 @@ This project was deployed using Code Institue's mock terminal for Heroku.
 
 # Credits 
 
+[ASCII Art](https://patorjk.com/software/taag/#p=display&h=3&f=Crawford2&t=deeper%0Ainto%20%0Athe%20forest) - A site that converts text to ASCII art. This was used for all art in the project.
 
 ### Media
 

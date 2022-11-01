@@ -27,6 +27,18 @@ def typewriter_title(text):
         sys.stdout.flush()
 
 
+def title_print():
+    print("""
+ ______  __ __    ___      __    __   ___    ___   ___   _____
+|      ||  |  |  /  _]    |  |__|  | /   \  /   \ |   \ / ___/
+|      ||  |  | /  [_     |  |  |  ||     ||     ||    (   \_ 
+|_|  |_||  _  ||    _]    |  |  |  ||  O  ||  O  ||  D  \__  |
+  |  |  |  |  ||   [_     |  `  '  ||     ||     ||     /  \ |
+  |  |  |  |  ||     |     \      / |     ||     ||     \    |
+  |__|  |__|__||_____|      \_/\_/   \___/  \___/ |_____|\___|
+    """)
+
+
 def start_game_function():
     """
     Prints the story for the start of the game.
@@ -34,6 +46,7 @@ def start_game_function():
     print("""
     --------------------------------------------------------------
     """)
+    title_print()
     typewriter("""
     You are running through the woods
     Your feet are hurt from running so hard.
