@@ -375,5 +375,5 @@ def bad_ending():
     bad_ending_function(username)
     back_to_start()
 
-
+# Starts the game loop
 intro()
