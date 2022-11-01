@@ -56,6 +56,20 @@ Below you will find flow chart that maps out all the entire flow of the programm
 |        | Dont enter any name and press enter | Input error username too short try again | Working as inteded |
 |        | Enter normal name with no symbols or numbers 4 letters long | Ask do you want to play a game? | Working as intended |
 
+
+| Type of Test | Steps | Expected Results | Results |
+| -------------|-------|------------------|---------|
+|Do you want to play User Input | Open deploted site | Directs to Terminal in webpage | Working as intended
+| | Enter name correctly | Accepts name and welcomes user by name | Working as intended |
+| | User is asked do they want to play? Yes/No | |
+| | User types numbers | Input error please try again | Working as intended |
+| | User types symbols | Input error please try again | Working as intedned |
+| | User dosent type, only pressed Enter | Input error please try again | Working as intended |
+| | User types Yes or Y | Game starts | Working as intended |
+| | User types No or N | User is asked do they want to go back to the start | Working as intended |
+
+
+
 ## Validator Testing 
 
 Code Institue recomended using the PEP8 Python Validator to to validate the code written for this project.
@@ -72,7 +86,7 @@ A PEP8 validator was added to my Gitpod Workspace by following these steps.
 
 See below images of problems found after installing the above PEP8 workaround.
 
-Problems for run.py
+#### Problems for run.py
 
 - Problem on Ln 269 - line is too long. This is because of .strip().lower()
     Will to accept this problem
@@ -88,7 +102,7 @@ Problems for run.py
 ![Ln 138 Problem Fixed](assets/images/Ln-138-problem-fixed.png)
 
 
-Problems for stories.py
+#### Problems for stories.py
 
 Will to accept all warnings because they are shown because of th ASCII art used.
 
@@ -100,6 +114,9 @@ Will to accept all warnings because they are shown because of th ASCII art used.
 
 ## Bugs
 
+- First bug I encountered was when I started using while loops for validation.
+    I didnt have any breaks in the loops so they kept running when they shouldnt of been.
+    To fix this I used break to break the while loops after receiving a valid input from the user.
 
 # Deployment
 
