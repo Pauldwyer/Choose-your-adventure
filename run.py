@@ -47,7 +47,18 @@ def intro():
 
     typewriter("""
     Welcome to The Woods
-    An Interactive Story by Paul Dwyer \n""")
+    An Interactive Story by Paul Dwyer
+
+    How to play do you ask?
+
+    The story will be told in sections and at the end of each section,
+    You will be given a choice.
+    How you choose has consequences for how the story unfolds.
+
+    Can you make it to the end of The Woods?
+
+    Before we start please tell me one thing.
+    \n""")
 
     while PLAY_GAME:
         name = input("    What is your name? \n").lower().strip()
