@@ -27,6 +27,18 @@ def typewriter_title(text):
         sys.stdout.flush()
 
 
+def cave_print():
+    print("""
+ ______  __ __    ___         __   ____  __ __    ___ 
+|      ||  |  |  /  _]       /  ] /    ||  |  |  /  _]
+|      ||  |  | /  [_       /  / |  o  ||  |  | /  [_ 
+|_|  |_||  _  ||    _]     /  /  |     ||  |  ||    _]
+  |  |  |  |  ||   [_     /   \_ |  _  ||  :  ||   [_ 
+  |  |  |  |  ||     |    \     ||  |  | \   / |     |
+  |__|  |__|__||_____|     \____||__|__|  \_/  |_____|
+    """)
+
+
 def title_print():
     print("""
  ______  __ __    ___      __    __   ___    ___   ___   _____
@@ -152,6 +164,7 @@ def sea_scenario_function(username):
     print("""
     --------------------------------------------------------------
     """)
+    title_print()
     typewriter(f"""
     You take off running in the left direction.
     You forget the pain in your feet.
@@ -191,12 +204,13 @@ def forest_scene_function(username):
     print("""
     --------------------------------------------------------------
     """)
+    title_print()
     typewriter(f"""
     You decide to go deeper into the woods.
     You need to find somewhere to rest.
 
     You walk deeper and deeper into the woods.
-    The only sound you hear is twigs and 
+    The only sound you hear is twigs and
     branches crushing under your feet.
 
     How did you get into this situation?
