@@ -26,12 +26,14 @@ Below you will find flow chart that maps out all the entire flow of the programm
 
 ## Features 
 
+In this section I will talk about the features of the site.
 
 ### Existing Features
 
 
 ### Future Features
 
+- 
 
 ## Technology Used
 

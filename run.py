@@ -121,7 +121,6 @@ def start_game():
     While loop to validate user input.
     """
     start_game_function()
-    print("What do you do?")
     while PLAY_GAME:
         direction = input("    Do you go left or right?\n    ").strip().lower()
         if direction == "left" or direction == "l":
