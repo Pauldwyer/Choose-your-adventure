@@ -315,6 +315,7 @@ def cave_scenario_function(username):
     print("""
     --------------------------------------------------------------
     """)
+    cave_print()
     typewriter(f"""
     You decide to head towards the cave.
 
@@ -359,6 +360,7 @@ def running_out_of_cave_function():
     print("""
     --------------------------------------------------------------
     """)
+    cave_print()
     typewriter("""
     You get scared and run.
     You turn and run back the way you came.
@@ -395,6 +397,7 @@ def forest_clearing_function():
     print("""
     --------------------------------------------------------------
     """)
+    title_print()
     typewriter("""
     No this doesn't seem right you think to yourself.
     You turn and run back into the woods.
@@ -413,6 +416,7 @@ def deeper_into_cave_function(username):
     print("""
     --------------------------------------------------------------
     """)
+    cave_print()
     typewriter(f"""
     You go around the corner and suddenly you are amazed
     You walk into this huge cavern
@@ -487,6 +491,7 @@ def deeper_into_forest_function(username):
     print("""
     --------------------------------------------------------------
     """)
+    title_print()
     typewriter(f"""
     You avoid the spooky-looking cave.
     You set off, feeling the pain in your feet again.
@@ -538,6 +543,7 @@ def stand_and_fight_function(username):
     print("""
     --------------------------------------------------------------
     """)
+    title_print()
     typewriter(f"""
     You stand your ground.
     You plant your feet, a slight bend of the knees
@@ -595,6 +601,7 @@ def run_from_dogs_function():
     print("""
     --------------------------------------------------------------
     """)
+    title_print()
     typewriter("""
      You start to run as hard as you can
     The 3 dogs are closing in on you
@@ -616,6 +623,7 @@ def run_from_portal_function():
     print("""
     --------------------------------------------------------------
     """)
+    title_print()
     typewriter("""
     You turn to run
     'Ugh why are you such a dissapointment' the mage said.
@@ -633,6 +641,15 @@ def into_the_portal_function():
     """
     print("""
     --------------------------------------------------------------
+    """)
+    print("""
+ ____     ___ __    __      _       ____  ____   ___   
+|    \   /  _]  |__|  |    | |     /    ||    \ |   \  
+|  _  | /  [_|  |  |  |    | |    |  o  ||  _  ||    \ 
+|  |  ||    _]  |  |  |    | |___ |     ||  |  ||  D  |
+|  |  ||   [_|  `  '  |    |     ||  _  ||  |  ||     |
+|  |  ||     |\      /     |     ||  |  ||  |  ||     |
+|__|__||_____| \_/\_/      |_____||__|__||__|__||_____|
     """)
     typewriter("""
     You step towards the portal.
