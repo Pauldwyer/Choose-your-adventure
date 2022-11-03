@@ -14,8 +14,29 @@ The live link can be found here - https://choose-your-adventure-pp3.herokuapp.co
 
 ### Project Goals
 
+The scope of the project was to build a command line application that allows users to manage a common dataset about a particular domain.
+
 
 ### User Stories
+
+As a First time User
+
+- I want to easily understand the main purpose of the site and the application.
+- I want to have an easy and obvious way to make choices
+- I want to experience and interesting story so that I can have some fun.
+- I want the writing to set the scene and draw me into the story and world
+- I want the option to try again once the game is completed.
+
+As a Returning user
+
+- I want to have multiple ways the story can send so i can experienc them all.
+- I want to feel the different choices to be interesting and not repetitive.
+
+As a Site Owner 
+
+- I want to provide users with an enjoyable story.
+- I want the story to be immersive so users will return to try other choices.
+- I want the story to be replayable and fun.
 
 
 ### Design
