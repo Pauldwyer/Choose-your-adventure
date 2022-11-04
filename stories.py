@@ -64,17 +64,21 @@ def start_game_function():
     Your feet are hurt from running so hard.
     Why are you running?
     You can't quite remember.
-
     You cant keep going.
 
     You come to a clearing in the woods.
     You stop for a second to catch your breath.
 
     Everything suddenly becomes quite.
-    You take in your surroundings.
+    You take in your surroundings while you run.
+    Your in a woods, the amount of trees is quite dense.
+    The trees are old, and tall.
+    Its dark in the woods because the trees are tall
+    and have lots of branches and leaves.
 
+    After a while you come to a clearing and 
     It looks like you have 2 paths.
-    Go left or go right?
+    One left and one right.
     """)
 
 

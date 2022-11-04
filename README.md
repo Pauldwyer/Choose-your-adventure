@@ -51,10 +51,51 @@ In this section I will talk about the features of the site.
 
 ### Existing Features
 
+- Intro Page
+    - When the application loads up you are brought to the intro page.
+    - The intro page shows the title art.
+    - Welcomes the user and tell the user this is a interactive story and the author.
+    - Tells the user how to play
+    - Asks the user their name (this will be used throughout the story)
+    - After the user enters their name they are welcomed by name and asked do they want to play.
+
+![Intro Page](assets/images/intro_page.png)
+![Intro second question](assets/images/intro_second_question.png)
+
+- Story
+    - The story starts and the user gets a little bit of the story.
+    - The story is descriptive to try immerse the user in the story.
+    - Title art is show at the top of the page. This changes depending on location in the story.
+    - At the end of this story section the user is given a choice. Go left or right.
+    - The story is myseterious on purpose, the user gets breadcrumbs of the back story 
+    throughout the different routes the user can take. This is encourage the user to replay to learn 
+    the whole story.
+
+![Story Start](assets/images/story_start.png)
+
+![Beach Section](assets/images/beach_section.png)
+
+![Cave Section](assets/images/cave_section.png)
+
+![New Land](assets/images/near_the_end.png)
+
+- End Screen
+    - There is 2 different end screens that the user can experience.
+    - The "You Died" screen and the "Survival" Screen.
+    - The bad ending is when the user dies. The user is given a message and asked do they
+    want to play again
+    - The good ending is when the user survives and makes it to the end of the game.
+    The user is given a message and asked do they want to play again.
+
+![Bad Ending](assets/images/died.png)
+!
 
 ### Future Features
 
-- 
+- Build out the story world more.
+- Add more routes and decisions.
+- Make a fighting mechanic.
+- Create a function that allows skipping the typed effect with a button press.
 
 ## Technology Used
 

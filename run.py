@@ -122,7 +122,7 @@ def start_game():
     """
     start_game_function()
     while PLAY_GAME:
-        direction = input("    Do you go left or right?\n    ").strip().lower()
+        direction = input("Do you go left or right?\n    ").strip().lower()
         if direction == "left" or direction == "l":
             sea_scenario()
             break
@@ -240,7 +240,7 @@ def cave_scenario():
     clear()
     cave_scenario_function(username)
     while PLAY_GAME:
-        decision = input("    Deeper or Run?? \n").strip().lower()
+        decision = input("Deeper or Run?? \n").strip().lower()
         if decision == "deeper" or decision == "deep":
             deeper_into_cave_scene()
             break
@@ -275,7 +275,7 @@ def deeper_into_cave_scene():
     clear()
     deeper_into_cave_function(username)
     while PLAY_GAME:
-        print("    Quickly you must choose")
+        print("Quickly you must choose\n")
         decision = input("    Sea, Forest or Back to the start?").strip().lower()
         if decision == "sea" or decision == "s":
             print("    Tell her i sent you")
@@ -304,7 +304,7 @@ def deeper_into_forest():
     clear()
     deeper_into_forest_function(username)
     while PLAY_GAME:
-        decision = input("    Fight or Run?? \n").strip().lower()
+        decision = input("Fight or Run?? \n").strip().lower()
         if decision == "fight" or decision == "f":
             stand_and_fight()
             break
@@ -327,7 +327,7 @@ def stand_and_fight():
     clear()
     stand_and_fight_function(username)
     while PLAY_GAME:
-        decision = input("    Portal or Run?? \n").strip().lower()
+        decision = input("Portal or Run?? \n").strip().lower()
         if decision == "portal" or decision == "p":
             into_the_portal()
             break
