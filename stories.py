@@ -4,7 +4,7 @@
 import sys
 from time import sleep
 
-
+# Credit to Learn Learn Scrath
 def typewriter(text):
     """
     Function for slow typing in terminal window

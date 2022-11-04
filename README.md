@@ -200,4 +200,6 @@ The project was deployed on Heroku using the following steps.
 
 [ASCII Art](https://patorjk.com/software/taag/#p=display&h=3&f=Crawford2&t=deeper%0Ainto%20%0Athe%20forest) - A site that converts text to ASCII art. This was used for all art in the project.
 
+[GeeksforGeeks](https://www.geeksforgeeks.org/python-set-clear-method/) - Function for clearing terminal was taken from this site.
 
+[Learn Learn Scratch](https://www.youtube.com/watch?v=2h8e0tXHfk0) - Function for slow typing take from this video.
