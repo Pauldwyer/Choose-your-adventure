@@ -29,7 +29,7 @@ As a First time User
 
 As a Returning user
 
-- I want to have multiple ways the story can send so i can experienc them all.
+- I want to have multiple ways the story can send so i can experience them all.
 - I want to feel the different choices to be interesting and not repetitive.
 
 As a Site Owner 
@@ -88,29 +88,43 @@ In this section I will talk about the features of the site.
     The user is given a message and asked do they want to play again.
 
 ![Bad Ending](assets/images/died.png)
-!
+
+![Good Ending](assets/images/survival.png)
 
 ### Future Features
 
+- Create a function that allows skipping the typed effect with a button press.
 - Build out the story world more.
 - Add more routes and decisions.
 - Make a fighting mechanic.
-- Create a function that allows skipping the typed effect with a button press.
 
-## Technology Used
 
+## Languages Used
+
+- [Python](https://www.python.org/downloads/release/python-3811/) - Built using Python Language.
+
+## Frameworks, Libaries and Programmes used
 
 - [GitPod](https://gitpod.io/) - Site was developed using GitPod in broswer IDE.
 
-- [GitHub](https://github.com/) - Repository and version control was hosted with GitHub
+- [GitHub](https://github.com/) - Repository and version control was hosted with GitHub.
 
+- [Sys](https://docs.python.org/3/library/sys.html) - Used for slow typing effect.
 
+- [OS](https://docs.python.org/3/library/os.html) - Used for the clear function.
 
+- [Time](https://docs.python.org/3/library/time.html) - Used for the slow typing effect.
+
+- [Heroku](https://dashboard.heroku.com/login) - Site deployed on Heroku.
+
+- [Lucid Charts](https://www.lucidchart.com/) - Used for project planning.
 
 # Testing 
 
 
 ## Manual Testing
+
+For all testing please refere to [Teesting.md](testing.md)
 
 | Type of Test | Steps | Expected Results | Results
 |--------------|-------|------------------|---------
@@ -120,7 +134,7 @@ In this section I will talk about the features of the site.
 |        | Enter name longer than 20 letters | Input error username is too long try again | Working as intended |
 |        | Dont enter any name and press enter | Input error username too short try again | Working as inteded |
 |        | Enter normal name with no symbols or numbers 4 letters long | Ask do you want to play a game? | Working as intended |
-
+| Name gets called correctly throughout story | Play through story with username Paul | Named called correctly at different stages of the story | Working as intended |
 
 | Type of Test | Steps | Expected Results | Results |
 | -------------|-------|------------------|---------|
@@ -132,7 +146,20 @@ In this section I will talk about the features of the site.
 | | User dosent type, only pressed Enter | Input error please try again | Working as intended |
 | | User types Yes or Y | Game starts | Working as intended |
 | | User types No or N | User is asked do they want to go back to the start | Working as intended |
-
+| 1st choice Left or right | Type l3ft | Invalid input please try again | Working as intended |
+| | Type up | Invalid input please try again | Working as intended |
+| | Blank input | Invalid input please try again | Working as intended |
+| | Type left | Progress to next part of story | Working as intedned |
+| | Type Right | Progress to next part of story | Working as intended |
+| 2nd choice(going left direction) Forward or Back | Type f0ward | Invalid input please try forward or back | Working as intended |
+| | Type foorward | Invalid input please try forward or back | Working as intended |
+| | Type forward | Progress to next part of story | Working as intedned |
+| | Type back | Progress to next part of story | Working as intedned | 
+| Game over screen | | Correctly called after going forward | Working as intended |
+| Back to start in game over screen | Type y3s | Invalid input please try yes or no | Working as intended |
+| | Type n0 | Invalid input please try yes or no | Working as intended |
+| | type yes | Game starts over again | Working as intended | 
+| | Type no | application closed | Working as intended |
 
 
 ## Validator Testing 
@@ -172,9 +199,6 @@ See below images of problems found after installing the above PEP8 workaround.
 Will to accept all warnings because they are shown because of th ASCII art used.
 
 ![stories.py](assets/images/PEP8-Validator-gitpod-stories.py.png)
-
-
-## Lighthouse Testing
 
 
 ## Bugs
@@ -260,7 +284,5 @@ The project was deployed on Heroku using the following steps.
 # Credits 
 
 [ASCII Art](https://patorjk.com/software/taag/#p=display&h=3&f=Crawford2&t=deeper%0Ainto%20%0Athe%20forest) - A site that converts text to ASCII art. This was used for all art in the project.
-
-### Media
 
 
