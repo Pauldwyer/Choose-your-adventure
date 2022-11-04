@@ -121,7 +121,7 @@ In this section I will talk about the features of the site.
 
 # Testing 
 
-For all testing please refere to [Teesting.md](testing.md)
+For all testing please refere to [Testing.md](testing.md)
 
 # Deployment
 

@@ -22,26 +22,33 @@
 | | User dosent type, only pressed Enter | Input error please try again | Working as intended |
 | | User types Yes or Y | Game starts | Working as intended |
 | | User types No or N | User is asked do they want to go back to the start | Working as intended |
+| Back to the Start input | Called if user types no they dont want to play | | 
+| | Type y3s | Invalid input please try yes or no | working as intended |
+| | Type yes | Terminal is cleared and intro is called again | working as intended |
+| | Type no | Application closed | Working as intedned |
 | 1st choice Left or right | Type l3ft | Invalid input please try again | Working as intended |
 | | Type up | Invalid input please try again | Working as intended |
 | | Blank input | Invalid input please try again | Working as intended |
-| | Type left | Progress to next part of story | Working as intedned |
-| | Type Right | Progress to next part of story | Working as intended |
+| | Type left | Terminal is cleared and Progress to next part of story | Working as intedned |
+| | Type Right | Terminal is cleared and Progress to next part of story | Working as intended |
 | 2nd choice(going left direction) Forward or Back | Type f0ward | Invalid input please try forward or back | Working as intended |
 | | Type foorward | Invalid input please try forward or back | Working as intended |
-| | Type forward | Progress to next part of story | Working as intedned |
-| | Type back | Progress to next part of story | Working as intedned | 
-
+| | Type forward | Terminal is cleared and New title art and progress to next part of story | Working as intedned |
+| | Type back | Terminal is cleared and Progress to next part of story | Working as intedned | 
 | Game over screen | | Correctly called after going forward | Working as intended |
 | Back to start in game over screen | Type y3s | Invalid input please try yes or no | Working as intended |
 | | Type n0 | Invalid input please try yes or no | Working as intended |
-| | type yes | Game starts over again | Working as intended | 
+| | type yes | Terminal is cleared and Game starts over again | Working as intended | 
 | | Type no | application closed | Working as intended |
-
+| 1st choice after choosing right | | | |
+| Hide or go Ahead | Type 1234 | Invalid input please try Hide or Ahead | Working as intended |
+| | Type h1de | Invalid input please try Hide or Ahead | Working as intended |
+| | Type hide | Terminal is cleared, New title art and progress to next part of story | Working intended |
+| | Type ahead | Terminal is cleared, progress to next part of story | Working as intended |
 
 ## Validator Testing 
 
-Code Institue recomended using the PEP8 Python Validator to to validate the code written for this project.
+Code Institue recomended using the PEP8 Python Validator to validate the code written for this project.
 
 This site is no longer active so the below steps were taken to validate the code for this project.
 
@@ -55,7 +62,7 @@ A PEP8 validator was added to my Gitpod Workspace by following these steps.
 
 See below images of problems found after installing the above PEP8 workaround.
 
-#### Problems for run.py
+### Problems for run.py
 
 - Problem on Ln 269 - line is too long. This is because of .strip().lower()
     Will to accept this problem
@@ -71,7 +78,7 @@ See below images of problems found after installing the above PEP8 workaround.
 ![Ln 138 Problem Fixed](assets/images/Ln-138-problem-fixed.png)
 
 
-#### Problems for stories.py
+### Problems for stories.py
 
 Will to accept all warnings because they are shown because of th ASCII art used.
 
