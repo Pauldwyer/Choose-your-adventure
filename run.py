@@ -276,7 +276,7 @@ def deeper_into_cave_scene():
     deeper_into_cave_function(username)
     while PLAY_GAME:
         print("Quickly you must choose\n")
-        decision = input("    Sea, Forest or Back to the start?").strip().lower()
+        decision = input("    Sea, Forest or Back to the start?\n").strip().lower()
         if decision == "sea" or decision == "s":
             print("    Tell her i sent you")
             on_the_rocks_scenario()

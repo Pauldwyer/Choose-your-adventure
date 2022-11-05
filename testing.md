@@ -45,6 +45,37 @@
 | | Type h1de | Invalid input please try Hide or Ahead | Working as intended |
 | | Type hide | Terminal is cleared, New title art and progress to next part of story | Working intended |
 | | Type ahead | Terminal is cleared, progress to next part of story | Working as intended |
+| Choice after choosing Hide | | | |
+| Deeper or Run?? | | | | 
+| | Type d33per | Invalid input. Please try Deeper or Run | Working as intended |
+| | Leace input blank | Invalid input. Please try Deeper or Run | Working as intended |
+| | Type run! | Invalid input. Please try Deeper or Run | Working as intended |
+| | Type deeper | Terminal is cleared, new title art and and progress to next part of story | Working as intended |
+| | Type run | Terminal is cleared, and progress to next part of story | Working as indtended | 
+| Choice after choose Deeper | | | | 
+| Sea, Forest or Back to the start? | | | | 
+| | Type s3a | Invlalid input. Please try Sea, Forest or Back | Working as intended |
+| | Type f0r3st | Invlalid input. Please try Sea, Forest or Back | Working as intended |
+| | Typ3 b@ck | Invlalid input. Please try Sea, Forest or Back | Working as intended |
+| | Type sea | Terminal is cleared. User is sent back to the sea part of the story | Working as intended | 
+| | Type forest | Terminal is cleared. User is sent back outside the cave | Working as intended | 
+| | Type back | Terminal is cleared. User is sent back to the start of the game | Working as intended | 
+| Choice after choosing ahead outside the cave | | | |
+| Fight or Run | Type f1ght | Invalid input. Please try Fight or Run | Working as intended | 
+| | Type 1234 | Invalid input. Please try Fight or Run | Working as intended | 
+| | Leave input blank | Invalid input. Please try Fight or Run | Working as intended | 
+| | Type -1 | Invalid input. Please try Fight or Run | Working as intended | 
+| | Type fight | Terminal is cleared. Story Progresses | Working as intended |
+| | Type Run | Terminal is cleared. Story progresses | Working as intended | 
+Choice after choosing fight | | | | 
+| Into the portal or Run | Leave input blank | Invalid input. Please try Portal or Run | Working as intended |
+| | Type 1234 | Invalid input. Please try Portal or Run | Working as intended |
+| | Type p0rtal | Invalid input. Please try Portal or Run | Working as intended |
+| | Type portal | Terminal is cleared, new title art and story progress to good ending | Working as intended |
+| | Type Run | Terminal is cleared, story progresses to bad ending | Working as intended |
+| Good ending screen | | | | 
+| Would you like to go back to the start | Type yes | Starts the game again | Working as intedned |
+| | Type no | game exits | Working as intended |
 
 ## Validator Testing 
 
